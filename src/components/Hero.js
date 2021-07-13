@@ -33,7 +33,7 @@ const HeroLayout = ({ className, scrollTo }) => (
       `}>
         APRIL 3rd - 17th
       </SpacedSubtitle>
-      <HeroTitle>Penn Climate Ventures Prize</HeroTitle>
+      <HeroTitle>Penn Climate Ventures Ideathon</HeroTitle>
       <SpacedSubtitle css={`
         ${mediaMaxWidth("768px")}{
           display: none;
