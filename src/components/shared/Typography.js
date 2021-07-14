@@ -20,6 +20,7 @@ export const Text = s.p`
   font-family: ${({roboto}) => roboto ? `Roboto` : `Avenir`};
   color: ${({fontColor}) => fontColor || `black`};
   ${({bold}) => bold && `font-weight: bold`};
+  ${({center}) => center && `text-align: center`};
 `
 
 export const SubText = s.p`
@@ -30,11 +31,12 @@ export const SubText = s.p`
 export const Link = s.a`
   font-size:${({ fontSize }) => fontSize || `1.2rem`};
   font-family: ${({roboto}) => roboto ? `Roboto` : `Avenir`};
-    color: ${GREEN};
-    ${({bold}) => bold && `font-weight: bold`};
-    transition: 0.1s;
+  color: ${GREEN};
+  ${({bold}) => bold && `font-weight: bold`};
+  ${({center}) => center && `text-align: center`};
+  transition: 0.1s;
 
-    &:hover {
-      color: ${FOCUS_GREEN};
-    }
+  &:hover {
+    color: ${FOCUS_GREEN};
+  }
 `

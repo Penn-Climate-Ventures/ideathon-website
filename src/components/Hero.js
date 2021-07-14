@@ -26,9 +26,9 @@ const HeroLayout = ({ className, scrollTo }) => (
           margin-right: 2rem;
         }
       `}>
-        March 30th - April 24th | Open to students globally.
+        September 21 - 25 | Open to students globally.
       </Subtitle>
-      <HeroTitle>Penn Climate Ventures Prize</HeroTitle>
+      <HeroTitle>Penn Climate Ventures Ideathon</HeroTitle>
       <Subtitle css={`
         ${mediaMaxWidth("768px")}{
           display: none;
@@ -48,7 +48,7 @@ const HeroLayout = ({ className, scrollTo }) => (
             :hover {
               background-color: #86b3d1;
             }`}>
-      Registration Closed for 2021
+      Registration Opens Soon
     </Button>
 
     <a>
