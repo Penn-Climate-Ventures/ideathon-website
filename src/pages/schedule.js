@@ -2,8 +2,8 @@ import React from "react"
 import Helmet from "react-helmet"
 import { Navbar, Footer} from "../components"
 import s from "styled-components"
-import { Title, Text, Subtitle, Link } from "../components/shared/Typography"
-import {GREEN, MIDNIGHT_BLUE, STEEL_BLUE} from "../utils/constants";
+import { Title, Text } from "../components/shared/Typography"
+import {GREEN, STEEL_BLUE} from "../utils/constants";
 
 const Date = s.h3`
     font-size: 1.5rem;
@@ -72,7 +72,7 @@ const Timeline = () => (
         <EventTime>4:00 AM</EventTime>
       </Event>
       <Event>
-        <Text>Judging Occurs</Text>
+        <Text>Judging Period</Text>
         <EventTime>2:00 PM to 8:00 PM</EventTime>
       </Event>
     </EventGroup>
