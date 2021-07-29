@@ -75,6 +75,14 @@ const PrizeSubtitle = s(Text)`
     font-size: calc(2.8rem + 1vw);
 `
 
+const PrizeText = s(Text)`
+    font-family: roboto;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    margin: 1vw 0;
+`
+
 const WinnersButton = s(Button)`
     background-color: ${GREEN};
     color: white;
@@ -132,17 +140,20 @@ const Prizes = () => (
         <Level>
             <LevelItem>
                 <PrizeTitle>First</PrizeTitle>
-                <PrizeSubtitle>$1000</PrizeSubtitle>
-            </LevelItem>
-            <LevelItem>
-                <PrizeTitle>Second</PrizeTitle>
                 <PrizeSubtitle>$500</PrizeSubtitle>
             </LevelItem>
             <LevelItem>
+                <PrizeTitle>Second</PrizeTitle>
+                <PrizeSubtitle>$400</PrizeSubtitle>
+            </LevelItem>
+            <LevelItem>
                 <PrizeTitle>Third</PrizeTitle>
-                <PrizeSubtitle>$250</PrizeSubtitle>
+                <PrizeSubtitle>$300</PrizeSubtitle>
             </LevelItem>
         </Level>
+        <PrizeText>Fourth: $200</PrizeText>
+        <PrizeText>Honorable Mention: $100</PrizeText>
+        <Text fontSize="1.5rem" center>+ Additional funding for continued engagement and development!</Text>
     </div>
 )
 
