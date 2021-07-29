@@ -1,6 +1,8 @@
 import React from "react"
 import s from "styled-components"
 import { SubText, Text, Link } from "./shared/Typography"
+import { mediaMaxWidth } from "../utils/constants"
+
 
 const LevelItem = s.div.attrs(() => ({
   className: "level-item has-text-left"
@@ -14,6 +16,11 @@ const LevelItem = s.div.attrs(() => ({
 const Level = s.div`
   margin: 2vw auto;
   width: 70vw;
+
+  ${mediaMaxWidth("768px")} {
+    display: flex;
+    flex-direction: column;
+  }
 `
 
 const PartnersLayout = ({ className }) => (

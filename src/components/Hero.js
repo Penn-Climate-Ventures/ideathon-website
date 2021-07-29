@@ -8,6 +8,12 @@ import { mediaMaxWidth } from "../utils/constants"
 
 const HeroTitle = s(Title)`
   ${mediaMaxWidth("768px")}{
+  margin: 2rem;
+}
+`
+
+const HeroSubtitle = s(Subtitle)`
+  ${mediaMaxWidth("768px")}{
     margin: 2rem;
   }
 `
@@ -19,29 +25,21 @@ const InlineBlock = s.div`
 
 const HeroLayout = ({ className, scrollTo }) => (
   <div className={`container has-text-centered ${className}`}>
-    <InlineBlock>
-      <Subtitle css={` 
-        ${mediaMaxWidth("768px")}{
-          float: right;
-          margin-right: 2rem;
-        }
-      `}>
+    <InlineBlock
+      css={`padding: 0 50px`}>
+      <Subtitle>
         September 21 - 25 | Open to students globally.
       </Subtitle>
-      <HeroTitle>Penn Climate Ventures Ideathon</HeroTitle>
-      <Subtitle css={`
-        ${mediaMaxWidth("768px")}{
-          display: none;
-        }
-      `}>
+      <Title>Penn Climate Ventures Ideathon</Title>
+      <Subtitle>
         catalyzing climate action
       </Subtitle>
     </InlineBlock>
     <br />
     <Button 
       css={`display: block; 
-            width: 29vw; 
-            margin: 3vw auto;
+            width: 350px; 
+            margin: 50px auto;
             background-color: #86b3d1;
             font-weight: bold;
 
@@ -54,12 +52,12 @@ const HeroLayout = ({ className, scrollTo }) => (
     <a>
       <Chevron onClick={scrollTo} css={`
         width: 3rem;
-        margin-top: 3vw;
+        margin-top: 10px;
       `} />
     </a>
   </div>
 )
 
 export const Hero = s(HeroLayout)`
-  margin-top: 10vw;
+  margin: 130px auto;
 `

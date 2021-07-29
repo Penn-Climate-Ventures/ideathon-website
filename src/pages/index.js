@@ -6,7 +6,7 @@ import {
   Navbar, 
   Hero,
   Timeline,
-  Partners,
+  // Partners,
   Footer
 } from "../components"
 
@@ -27,7 +27,7 @@ const IndexPage = () => {
       <Hero scrollTo={scrollTo} />
       <Timeline ref={sectionRef} />
       <Prizes />
-      <Partners />
+      {/* <Partners /> */}
       <Footer />
     </>
   )

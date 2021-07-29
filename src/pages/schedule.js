@@ -270,7 +270,7 @@ const Schedule = () => (
                 <meta name="description" content="Penn Climate Ventures official schedule."/>
         </Helmet>
         <Navbar />
-        <div css={`padding: 6vw 14vw;`}>
+        <div css={`padding: 6vw 12vw;`}>
             <Title>PCV Prize 2021 Schedule</Title>
             <Subtitle>Dates for 2022 TBA</Subtitle>
             <Timeline />

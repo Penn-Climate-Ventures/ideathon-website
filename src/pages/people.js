@@ -268,7 +268,7 @@ const People = () => {
         <meta name="description" content="Penn Climate Ventures official prize people." />
       </Helmet>
       <Navbar />
-      <div css={`padding: 6vw 14vw;`}>
+      <div css={`padding: 6vw 12vw;`}>
         <Title>People (2021)</Title>
         <Keynote/>
         <br />
