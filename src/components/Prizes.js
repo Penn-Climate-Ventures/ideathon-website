@@ -8,22 +8,17 @@ const LevelItem = s.div.attrs(() => ({
 }))`
   flex-direction: column;
   width: 18vw;
-  padding: 0 3vw;
-
-  ${mediaMaxWidth("768px")} {
-    flex-direction: row;
-  }
 `
 
 const Level = s.div`
   margin: 2vw 9vw 0;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
 
   ${mediaMaxWidth("768px")} {
     width: 100%;
     padding: 10%;
+    flex-direction: column;
   }
 `
 
@@ -54,7 +49,7 @@ const PrizeText = s(Text)`
     font-weight: bold;
     text-align: center;
     font-size: 2rem;
-    margin: 1vw 0;
+    margin: 10px 0;
 `
 
 const Prizes = () => (

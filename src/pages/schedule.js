@@ -94,7 +94,7 @@ const Schedule = () => (
       <meta name="description" content="Penn Climate Ventures official schedule."/>
     </Helmet>
     <Navbar />
-    <div css={`padding: 6vw 14vw;`}>
+    <div css={`padding: 6vw 12vw;`}>
       <Title>PCV Ideathon Fall 2021 Schedule</Title>
       <Text center css={`margin: 60px auto;`}>
         <i>More details will be released in September! All times Eastern Standard.</i>
