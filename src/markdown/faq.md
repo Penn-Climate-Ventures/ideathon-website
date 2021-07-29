@@ -53,6 +53,11 @@ title: "FAQs"
 </details>
 
 <details>
+    <summary>Can I compete on multiple teams?</summary>
+    Yes! You may compete as part of more than one team.
+</details>
+
+<details>
     <summary>Can I compete without prior experience with tech or startups?</summary>
     Definitely! We strongly encourage anyone interested in the PCV Ideathon or climate innovation to compete. There are no requirements for what a successful PCV Ideathon team will look like, and we will be hosting classes and workshops to help teams build and strengthen their startup ideas.
 </details>

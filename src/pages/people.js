@@ -269,8 +269,9 @@ const People = () => {
       </Helmet>
       <Navbar />
       <div css={`padding: 6vw 12vw;`}>
-        <Title>People (2021)</Title>
-        <Keynote/>
+        <Title>People</Title>
+        <Subtitle>Judges, mentors and speakers to be announced!</Subtitle>
+        {/* <Keynote/>
         <br />
         <Panelists/>
         <br />
@@ -278,7 +279,7 @@ const People = () => {
         <br />
         <CoSponsors/>
         <br />
-        <PCVTeam/>
+        <PCVTeam/> */}
       </div>
       <Footer />
     </>
