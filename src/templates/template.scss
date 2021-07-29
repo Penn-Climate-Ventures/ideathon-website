@@ -12,6 +12,8 @@ h1 {
         font-size: calc(2.5rem + 2vw);
         font-family: Roboto;
         font-weight: bold;
+        line-height: calc(2.5rem + 2vw);
+        margin-bottom: 2rem;
         color: #3083BC;
     }
 
@@ -41,8 +43,7 @@ h1 {
     }
 
     ul {
-        list-style-type: disc;
-        margin-left: 2.5rem;
+        all: revert;
     }
 
     a {

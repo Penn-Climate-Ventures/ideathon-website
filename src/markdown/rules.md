@@ -4,85 +4,122 @@ title: "Official Rules"
 description: "The official rules for the Penn Climate Ventures Prize."
 ---
 
-# PCV Prize Official Rules
+# PCV Ideathon Official Rules
 
-### The PCV Prize is an annual student climate tech startup competition hosted by Penn Climate Ventures at the University of Pennsylvania.
+The PCV Ideathon is an annual student climate tech pitch competition hosted by Penn Climate Ventures
+at the University of Pennsylvania. The PCV Ideathon will open on 9/9 and run until 9/25. Competitors
+will pitch a business plan to address a climate issue. Competitors will receive access to mentorship
+opportunities with experienced investors and operators in the space. The contest will be open and
+accessible to Penn students of all backgrounds — those without experience in climate
+entrepreneurship will have the opportunity to work with mentors to develop ideas to tackle
+challenges in climate space. 
 
+<br>
 
-## 1. Competition Tracks
+Challenge prompts will be provided to competitors to guide their project development. The top
+pitches will be awarded cash prizes in the intent of further developing their platforms. 
 
-There are two groups of tracks: Collegiate Tracks and the High School Track.
-
-### Collegiate Tracks
-- Waste and Circularity
-- Energy and Transportation
-- Food and Agriculture
-- Wild Card
-
-### High School Teams
-All high school teams will compete in the same track.
-
-
-## 2. Eligibility
-
-### Individual Eligibility
-All students enrolled at a university or high school in the world are eligible to compete.
-
-### Team Eligibility
-PCV Prize teams compete in groups of 1-5. Depending on your track, different eligibility rules may apply. **The PCV Prize team reserves the right to determine a team’s eligibility.**
-
-### For All Teams
-- You do NOT need to have an incorporated business to apply; all concepts are welcome, whether it's just a great idea or a revenue-making startup
-- If you do have an established startup, you must not have received more than $25K in external funding, dilutive or non-dilutive.
-
-### For Collegiate Teams
-All team members must be currently enrolled students, at either the high school, undergrad, or graduate school level. We'd recommend teams solely consisting of high school members to participate in the high school track.
-
-### For High School Teams
-All team members must be currently enrolled in a high school anywhere around the world.
+2 pitches may be offered a chance to directly compete in the finalist round of the spring PCV Prize
+along with additional funding and mentorship support from the PCV team.
 
 
-## 3. Registration
-All competitors need to register for the PCV Prize. Registrants receive the latest updates on all events and sessions.
+## 1. Eligibility
 
-### Individual Registrations (DUE DATE FOR 2022 PRIZE TBA) 
-Every team member needs to register at:
-
-### Team Registrations (DUE DATE FOR 2022 PRIZE TBA)
-Once you've decided on your team, register at:
+- All competitors need to be Penn students that are currently enrolled or on a gap year with
+intention to be enrolled full time within the next 2 years.
+- Competition submissions can be made by 1 person or a team of up to 5 students. Teams will need to
+designate a team leader who will be the main point of contact.
 
 
-## 4. Submissions
+## 2. Registration
 
-### All submissions are due (DUE DATE FOR 2022 PRIZE TBA):
-Once you feel ready, submit your team's deck and presentation at:
-
-### Submission Materials
-- Pitch video (maximum 5 minutes, recommended 3-4)
-- Pitch deck (maximum 20 slides, recommended 10-12)
-- (OPTIONAL) 2 supplemental PDFs (each PDF is maximum 10 pages) 
-
-Round 1 submission rubric to come.
-
-## 5. First Round Judging 
-
-### Before the first round, teams will have the opportunity to attend:
-- (OPTIONAL) 1-on-1 office hours with industry experts
-- (OPTIONAL) 1-on-1 office hours with the PCV consulting team
-
-### First round pitches are ranked on:
-- Technical feasibility
-- Potential environmental impact
-- Financial viability
-Rubric will be posted soon.
-
-### Two finalists will from each track will be announced the morning of (DATE TBA). Good luck!
+- All competitors on all teams need to be registered for the PCV Ideathon. 
+- Registration closes on September 20, 2021 at 11:59 PM.
+- There is no limit on the number of competitors registered to compete. Some events hosted alongside
+the Ideathon may require separate registration; there may be participant limits for these events. 
 
 
-## 6. Finals (DATE TBA)
+## 3. Submissions
 
-### During our finalists week, our 10 finalists will receive:
-- 1-on-1 Mentorship
-- Investor Intros
+All submissions are due September 24, 2021 at 4:00 AM ET. Once you feel ready, submit your team's
+deck and presentation [here](/).
 
-### ​Finalists compete LIVE for first, second, and third place awards in closing session!
+<br>
+
+(We encourage teams to plan to submit early, in case of technical difficulties! The PCV team will
+not be available to help troubleshoot submissions after 8 PM on the 23rd!)
+
+<br>
+
+Submissions need to be in response to a challenge prompt. Find this year’s challenge
+prompts [here](/).
+
+<br>
+
+Submission requirements are as follows:
+- 1 pitch video (maximum 3:30 minutes)
+- The pitch deck used in your video
+- A completed submission form where you will be asked the following questions:
+    - Your team name
+    - Your team members: full names, headshots, school, graduation year, LinkedIn
+    - Your team point of contact and their contact information
+    - The challenge prompt you are answering
+    - One-sentence description of your proposed solution
+    - One-sentence summary of your inspiration, process, or mentorship experience
+    - A climate-related meme you feel strongly about
+
+<br>
+
+We encourage submissions to:
+- Further contextualize the problem you are solving
+- Quantify and qualify the impact of your solution
+- Assess the competitive landscape
+- Propose a development plan and budget
+- Introduce us to your team!
+
+
+## 4. Judging
+
+Each pitch submission will be judged by a minimum team of 3 judges.
+- Please view the judge panel here:
+- Please view the judging rubric here:
+
+<br>
+
+All submissions will be reviewed and scored using the rubric. (We have a method for normalizing
+scores 🙂) Top teams based on rubric scores will enter final rounds of judge deliberations. Top 5
+teams will be selected and awarded cash prizes. Two out of the 5 teams will have the chance to
+pursue the Continued Engagement Fund, a $1000 fund to cover materials costs for future development.
+These two teams will have the chance to compete directly in the Final Round of the PCV Prize in the
+spring.
+
+
+ ## 5. Closing Ceremony
+
+The closing ceremony which will take place September 25th, 2021. Winning teams will be announced at
+the ceremony. Please email our organizing team for extenuating circumstances under which your team
+will not be able to attend!
+
+
+## 6. Prizes
+
+Prize Amounts:
+- First Place: $500
+- Second Place: $400
+- Third Place: $300
+- Fourth Place: $200
+- Honorable Mention: $100
+- Continued Engagement Fund:  two teams will be selected to have the opportunity to pursue an
+additional $1000 each to cover development costs should they continue to develop their pitch into a
+startup
+
+<br>
+
+Winning teams will be contacted directly to coordinate logistics for prize distribution.
+
+
+## 7. Disqualification Circumstances
+
+- Teams may be disqualified on the basis of:
+    - not meeting eligibility requirements
+    - violating mentorship office hours terms
