@@ -4,13 +4,13 @@ h1 {
 }
 
 #markdown {
-    font-size: calc(0.3rem + 1vw);
+    font-size: 1.1rem;
     font-family: Avenir;
     padding: 6vw 12vw;
     color: black;
 
     h1 {
-        font-size: calc(2.5rem + 2vw);
+        font-size: 4rem;
         font-family: Roboto;
         font-weight: bold;
         line-height: calc(2.5rem + 2vw);
@@ -19,7 +19,7 @@ h1 {
     }
 
     h2 {
-        font-size: calc(1rem + 1vw);
+        font-size: 2rem;
         font-family: Roboto;
         font-weight: bold;
         padding-top: 2vw;
@@ -27,14 +27,14 @@ h1 {
     }
 
     h3, h4, h5, h6 {
-        font-size: calc(0.5rem + 1vw);
+        font-size: 1.5rem;
         font-family: Roboto;
         font-weight: bold;
         padding-top: 1vw;
     }
 
     details {
-        font-size: calc(0.3rem + 1vw);
+        font-size: 1.1rem;
         margin-bottom: 1rem;
         summary {
             font-weight: bold;

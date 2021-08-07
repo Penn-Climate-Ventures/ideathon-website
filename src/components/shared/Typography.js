@@ -16,7 +16,7 @@ export const Subtitle = s.h2`
 `
 
 export const Text = s.p`
-  font-size:${({ fontSize }) => fontSize || `1.2rem`};
+  font-size:${({ fontSize }) => fontSize || `1.1rem`};
   font-family: ${({roboto}) => roboto ? `Roboto` : `Avenir`};
   color: ${({fontColor}) => fontColor || `black`};
   ${({bold}) => bold && `font-weight: bold`};
@@ -29,7 +29,7 @@ export const SubText = s.p`
 `
 
 export const Link = s.a`
-  font-size:${({ fontSize }) => fontSize || `1.2rem`};
+  font-size:${({ fontSize }) => fontSize || `1.1rem`};
   font-family: ${({roboto}) => roboto ? `Roboto` : `Avenir`};
   color: ${GREEN};
   ${({bold}) => bold && `font-weight: bold`};

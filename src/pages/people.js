@@ -28,6 +28,68 @@ import PEGLogo from '../images/peg.jpeg'
 import SSAPLogo from '../images/ssap.png'
 import PUCPLogo from '../images/pucp.jpeg'
 
+import AaronRatner from "../images/judges2021/AaronRatner.jpg"
+import BrettLasher from "../images/judges2021/BrettLasher.jpg"
+import KyleWelborn from "../images/judges2021/KyleWelborn.jpg"
+import MackenzieMarcotte from "../images/judges2021/MackenzieMarcotte.jpg"
+import SuzanneShaw from "../images/judges2021/SuzanneShaw.jpg"
+
+
+const GridLayout = s.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+`
+
+const Judges = () => (
+  <div>
+    <Subtitle>Judges</Subtitle>
+    <GridLayout>
+      <Headshot 
+        imageSrc={AaronRatner}
+        imageAlt="Aaron Ratner"
+        name="Aaron Ratner"
+        description={<>President of Cross River <br/> Infrastructure Partners,
+          <br/>
+          ClimateTech Venture Partner with <br/> Vectr Ventures</>}
+        linkedIn="https://www.linkedin.com/in/aarontratner/"/>
+
+      <Headshot 
+        imageSrc={BrettLasher}
+        imageAlt="Brett Lasher"
+        name="Brett Lasher"
+        description={<>Executive Director of Cox Communications’ New Growth & Development group, 
+          <br/>
+          Advisor to nVenue,
+          <br/>
+          Limited Partner Ambassador for Energy Impact Partners</>}
+        linkedIn="https://www.linkedin.com/in/brett-lasher-0b8256/"/>
+
+      <Headshot 
+        imageSrc={KyleWelborn}
+        imageAlt="Kyle Welborn"
+        name="Kyle Welborn"
+        description="Co-founder and General Partner at Cultivation Capital"
+        linkedIn="https://www.linkedin.com/in/kylewelborn/"/>
+
+      <Headshot 
+        imageSrc={MackenzieMarcotte}
+        imageAlt="Mackenzie Marcotte"
+        name="Mackenzie Marcotte"
+        description="Analyst at EcoAct"
+        linkedIn="https://www.linkedin.com/in/mackenzie-marcotte-a457546b/"/>
+
+      <Headshot 
+        imageSrc={SuzanneShaw}
+        imageAlt="Suzanne Shaw"
+        name="Suzanne Shaw"
+        description="Investment Operations at Asian Infrastructure Investment Bank"
+        linkedIn="www.linkedin.com/in/suzannemshaw"/>
+      
+    </GridLayout>
+  </div>
+)
+
 //keynote
 const Keynote = () => {
   return (
@@ -222,37 +284,17 @@ const CoSponsors = () => {
 //PCV team, advisors, and other core members
 const PCVTeam = () => {
   return (
-    <div>
-      <Subtitle>PCV Team</Subtitle>
+    <div css={`padding: 15px 0`}>
+      <Subtitle>PCV Prize Team</Subtitle>
       <Text>
-        Andrew Yu - Management <br />
-        Mark Wasuwanich - Management <br />
-        Aliris Tang - Management <br />
-        Marina Dauer - Prize Lead <br />
-        Shalini Majumdar - Fellowships Lead <br />
-        Angela Sun - Events Coordinator <br />
-        Yi-An Hsieh - Events Coordinator, Design <br />
-        Nicole Chau - Design
-      </Text>
-      <br />
-      <Subtitle>PCV Advisors</Subtitle>
-      <Text>
-        Clara Lyle - Weitzman School of Design, MA Environmental Planning <br />
-        Helen Wiley - Wharton Risk Center <br />
-        Ben Thomas - Wharton Risk Center <br />
-      </Text>
-      <br />
-      <Subtitle>SparkTeen Team</Subtitle>
-      <Text>
-        Kyler Wang<br />
-        Kai Fine<br />
-        Angel More <br />
-        Andrew Gao<br />
-        Jodi Sy<br />
-        Aiko Ma<br />
-        Sumner Rahr<br />
-        Kevin Wang<br />
-        Rayan Garg <br />
+        Yi-An Hsieh - Prize Lead <br/>
+        Omar Ben Kaddour - Outreach <br />
+        Christiana Guan - Marketing <br />
+        Anjie Wang - Events <br />
+        Aditya Rao - Events <br />
+        Alice Feng - Fundraising <br />
+        Nicole Chau - Web Dev + Design <br />
+        Ryoma Harris - Web Dev
       </Text>
     </div>
   )
@@ -270,7 +312,9 @@ const People = () => {
       <Navbar />
       <div css={`padding: 6vw 12vw;`}>
         <Title>People</Title>
-        <Subtitle>Judges, mentors and speakers to be announced!</Subtitle>
+        <Judges />
+        <Text>More to be announced soon!</Text>
+        <PCVTeam />
         {/* <Keynote/>
         <br />
         <Panelists/>
