@@ -321,9 +321,7 @@ const People = () => {
         <br />
         <Moderators/>
         <br />
-        <CoSponsors/>
-        <br />
-        <PCVTeam/> */}
+        <CoSponsors/> */}
       </div>
       <Footer />
     </>

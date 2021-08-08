@@ -21,14 +21,14 @@ const HeroSubtitle = s(Subtitle)`
 const InlineBlock = s.div`
   text-align: left;
   display: inline-block;
+  padding: 0 50px;
 `
 
 const HeroLayout = ({ className, scrollTo }) => (
   <div className={`container has-text-centered ${className}`}>
-    <InlineBlock
-      css={`padding: 0 50px`}>
+    <InlineBlock>
       <Subtitle>
-        September 21 - 25 | Open to students globally.
+        September 21 - 25 | Open to students at Penn.
       </Subtitle>
       <Title>Penn Climate Ventures Ideathon</Title>
       <Subtitle>

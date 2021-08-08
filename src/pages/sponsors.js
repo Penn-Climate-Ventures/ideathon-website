@@ -34,7 +34,7 @@ const Sponsors = () => (
 
             <br/>
 
-            <Subtitle>
+            {/* <Subtitle>
                 Our Supporters for the 2021 PCV Prize:
             </Subtitle>
 
@@ -50,7 +50,7 @@ const Sponsors = () => (
             <Text>
                 If you would like to become a sponsor of our 2022 Prize, please shoot us an email at 
                 <Link href="mailto:pennclimateventures@gmail.com"> pennclimateventures@gmail.com</Link>!
-            </Text>
+            </Text> */}
         </div>
         <Footer />
     </>        
