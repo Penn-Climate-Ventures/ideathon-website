@@ -6,6 +6,7 @@ import { Title, Text } from "../components/shared/Typography"
 import {GREEN, STEEL_BLUE} from "../utils/constants";
 
 const Date = s.h3`
+    font-family: roboto;
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 10px;
@@ -19,12 +20,11 @@ const EventGroup = s.div`
 `
 
 const Event = s.div`
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding: 8px 0;
 `
 
 const EventTime = s(Text)`
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
   color: ${STEEL_BLUE};
 `

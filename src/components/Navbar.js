@@ -20,7 +20,7 @@ const NavWrapper = s.nav`
   right: 0;
   z-index: 100;
 
-  @media screen and (min-width: 780px) {
+  @media screen and (min-width: 900px) {
     position: static;
   }
 `
@@ -49,7 +49,7 @@ const ToggleMenuButton = s.button`
     background-color: ${STEEL_BLUE};
   }
   
-  @media screen and (min-width: 780px) {
+  @media screen and (min-width: 900px) {
     display: none;
   }
 `
@@ -82,7 +82,7 @@ export const NavMenu = s.div`
   transition: all 0.3s ease-in-out;
   visibility: hidden;
   
-  @media screen and (min-width: 780px) {
+  @media screen and (min-width: 900px) {
     all: unset;
     position: static;
     display: flex;
@@ -103,7 +103,7 @@ const NavLinks = s.div`
   align-items: center;
   justify-content: center;
   
-  @media screen and (min-width: 780px) {
+  @media screen and (min-width: 900px) {
     all: unset;
     display: flex;
     flex-direction: row;
@@ -112,6 +112,7 @@ const NavLinks = s.div`
     height: 100%;
     align-items: center;
     padding: 0;
+    margin: 0 30px;
   }
 `
 
@@ -123,12 +124,14 @@ export const NavButton = s.a`
   cursor: pointer;
   display: flex;
   flex-basis: content;
+  width: max-content;
+  transition: 0.2s;
   
   &:hover {
     color: ${STEEL_BLUE};
   }
   
-  @media screen and (min-width: 780px) {
+  @media screen and (min-width: 900px) {
     margin: auto 10px;
     height: 100%;
     align-items: center;
