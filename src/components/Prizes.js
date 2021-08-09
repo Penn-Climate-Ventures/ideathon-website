@@ -8,24 +8,19 @@ const LevelItem = s.div.attrs(() => ({
 }))`
   flex-direction: column;
   width: 18vw;
+  margin: 0 auto;
 `
 
 const Level = s.div`
-  margin: 2vw 9vw 0;
-  display: flex;
-  justify-content: center;
-
-  ${mediaMaxWidth("768px")} {
-    width: 100%;
-    padding: 10%;
-    flex-direction: column;
-  }
-`
-
-const responsiveText = `
-  ${mediaMaxWidth("768px")} {
-    font-size: calc(2rem + 1vw);
-  }
+    margin: 5px auto;
+    display: flex;
+    justify-content: center;
+  
+    ${mediaMaxWidth("768px")} {
+      width: 100%;
+      padding: 5%;
+      flex-direction: column;
+    }
 `
 
 const PrizeTitle = s(Text)`
@@ -33,7 +28,7 @@ const PrizeTitle = s(Text)`
     font-weight: bold;
     color: ${STEEL_BLUE};
     text-align: center;
-    font-size: calc(0.8rem + 1vw);
+    font-size: 1.3rem;
 `
 
 const PrizeSubtitle = s(Text)`
@@ -41,7 +36,7 @@ const PrizeSubtitle = s(Text)`
     font-weight: bold;
     color: ${STEEL_BLUE};
     text-align: center;
-    font-size: calc(2.8rem + 1vw);
+    font-size: 3.5rem;
 `
 
 const PrizeText = s(Text)`

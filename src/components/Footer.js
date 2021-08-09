@@ -51,7 +51,7 @@ const SocialMedia = s.img`
     margin: 0 8px;
 `
 
-const FooterLayout = ({ className }) => <footer>
+const FooterLayout = () => <footer>
     <FooterLevel>
         <FooterButton border href="/rules">Official Rules</FooterButton>
         <FooterButton border href="/schedule">Schedule</FooterButton>

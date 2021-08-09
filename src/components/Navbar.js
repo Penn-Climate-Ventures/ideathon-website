@@ -4,8 +4,6 @@ import Logo from "../images/logo.png"
 import { STEEL_BLUE, MIDNIGHT_BLUE, GREEN } from "../utils/constants"
 import {navLinks, smLinks} from "../data/navigation"
 
-// TODO: center menu buttons
-
 const NavWrapper = s.nav`
   background-color: white;
   height: 80px;

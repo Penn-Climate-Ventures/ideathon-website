@@ -1,9 +1,5 @@
 import React from "react"
 import s from "styled-components"
-import Kleinman from '../images/kleinman.png'
-import MT from '../images/M&T_Logo_Tagline.png'
-import SP2 from '../images/sp2logo.png'
-import WGY from '../images/Whartonglobalyouthprogram.png'
 
 import { Title, Text, Subtitle, Link } from "../components/shared/Typography"
 import { Navbar, Footer } from "../components"
@@ -23,7 +19,7 @@ const Sponsors = () => (
                 <meta name="description" content="Sponsor the Penn Climate Ventures Prize."/>
         </Helmet>
         <Navbar />
-        <div css={`padding: 6vw 12vw;`}>
+        <div css={`padding: 90px 12vw;`}>
             <Title>
                 Sponsors
             </Title>
