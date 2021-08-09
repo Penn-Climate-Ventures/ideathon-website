@@ -17,7 +17,7 @@ const FooterButton = s(MenuButton).attrs(() => ({
 
     ${mediaMaxWidth("780px")} {
         border: none;
-        padding: 10px 0;
+        padding: 5px 0;
     }
 `
 
@@ -27,10 +27,11 @@ const FooterLevel = s.div`
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    padding: 50px 0 60px 0;
+    padding: 50px 0;
+    position: static;
 
     ${mediaMaxWidth("780px")} {
-        flex-direction: column;      
+        flex-direction: column;   
     }
 `
 
@@ -50,7 +51,7 @@ const SocialMedia = s.img`
     margin: 0 8px;
 `
 
-const FooterLayout = ({ className }) => <footer>
+const FooterLayout = () => <footer>
     <FooterLevel>
         <FooterButton border href="/rules">Official Rules</FooterButton>
         <FooterButton border href="/schedule">Schedule</FooterButton>

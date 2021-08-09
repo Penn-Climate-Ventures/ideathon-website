@@ -1,9 +1,5 @@
 import React from "react"
 import s from "styled-components"
-import Kleinman from '../images/kleinman.png'
-import MT from '../images/M&T_Logo_Tagline.png'
-import SP2 from '../images/sp2logo.png'
-import WGY from '../images/Whartonglobalyouthprogram.png'
 
 import { Title, Text, Subtitle, Link } from "../components/shared/Typography"
 import { Navbar, Footer } from "../components"
@@ -23,7 +19,7 @@ const Sponsors = () => (
                 <meta name="description" content="Sponsor the Penn Climate Ventures Prize."/>
         </Helmet>
         <Navbar />
-        <div css={`padding: 6vw 12vw;`}>
+        <div css={`padding: 90px 12vw;`}>
             <Title>
                 Sponsors
             </Title>
@@ -34,7 +30,7 @@ const Sponsors = () => (
 
             <br/>
 
-            <Subtitle>
+            {/* <Subtitle>
                 Our Supporters for the 2021 PCV Prize:
             </Subtitle>
 
@@ -50,7 +46,7 @@ const Sponsors = () => (
             <Text>
                 If you would like to become a sponsor of our 2022 Prize, please shoot us an email at 
                 <Link href="mailto:pennclimateventures@gmail.com"> pennclimateventures@gmail.com</Link>!
-            </Text>
+            </Text> */}
         </div>
         <Footer />
     </>        

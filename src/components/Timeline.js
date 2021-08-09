@@ -32,16 +32,23 @@ const EventGroup = s.span`
   }
 `
 
+const Description = s.div`
+  padding: 0 40px;
+`
+const Schedule = s.div`
+  border-left: 0.3rem solid ${GREEN}; 
+  margin: 2vw auto;
+  width: fit-content;
+`
+
 const TimelineLayout = React.forwardRef(({ className }, ref) => (
   <div ref={ref}>
-    <Subtitle fontSize="1.8rem" center css={`padding: 2vw 0 0;`}>Dive into the most pressing environmental issues of today.</Subtitle>
-    <Text fontSize="1.3rem" roboto bold center>Kickstart a climate startup in three weeks, supported by a world-class network of mentors.</Text>
-    
-    <div 
-      css={`
-        border-left: 0.3rem solid ${GREEN}; 
-        margin: 2vw auto;
-        width: 40vw;`}>
+    <Description>
+      <Subtitle fontSize="1.8rem" center css={`padding: 5px 0;`}>Dive into the most pressing environmental issues of today.</Subtitle>
+      <Text fontSize="1.3rem" roboto bold center>Kickstart a climate startup in three weeks, supported by a world-class network of mentors.</Text>
+    </Description>
+
+    <Schedule>
       <EventGroup>
         <Date>SEPT 21</Date>
         <EventText>Opening keynote</EventText>
@@ -66,10 +73,20 @@ const TimelineLayout = React.forwardRef(({ className }, ref) => (
         <Date>SEPT 25</Date>
         <EventText>Closing keynote + winners announced</EventText>
       </EventGroup>
-    </div>
+    </Schedule>
 
-    <Button href="/schedule" 
-      css={`margin: 0 40%;`}>Full Event Schedule</Button>
+    <Link 
+      css={`
+        text-align: center;
+        font-family: roboto;
+        margin: 0 auto;
+        display: block;
+      `}
+      bold 
+      fontSize="1.5rem"
+      href="/schedule">
+        Full Event Schedule
+    </Link>
   </div>
 ))
 

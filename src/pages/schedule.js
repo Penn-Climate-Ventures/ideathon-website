@@ -6,6 +6,7 @@ import { Title, Text } from "../components/shared/Typography"
 import {GREEN, STEEL_BLUE} from "../utils/constants";
 
 const Date = s.h3`
+    font-family: roboto;
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 10px;
@@ -19,12 +20,11 @@ const EventGroup = s.div`
 `
 
 const Event = s.div`
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding: 8px 0;
 `
 
 const EventTime = s(Text)`
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
   color: ${STEEL_BLUE};
 `
@@ -94,7 +94,7 @@ const Schedule = () => (
       <meta name="description" content="Penn Climate Ventures official schedule."/>
     </Helmet>
     <Navbar />
-    <div css={`padding: 6vw 12vw;`}>
+    <div css={`padding: 90px 12vw;`}>
       <Title>PCV Ideathon Fall 2021 Schedule</Title>
       <Text center css={`margin: 60px auto;`}>
         <i>More details will be released in September! All times Eastern Standard.</i>
