@@ -5,12 +5,12 @@ import "./styles.scss"
 import {
   Navbar, 
   Hero,
-  Prizes,
-  Partners,
   Timeline,
-  Donors,
+  // Partners,
   Footer
 } from "../components"
+
+import Prizes from "../components/Prizes"
 
 const IndexPage = () => {
   const sectionRef = useRef(null)
@@ -25,10 +25,9 @@ const IndexPage = () => {
       </Helmet>
       <Navbar />
       <Hero scrollTo={scrollTo} />
-      <Prizes ref={sectionRef} />
-      <Partners />
-      <Timeline />
-      <Donors />
+      <Timeline ref={sectionRef} />
+      <Prizes />
+      {/* <Partners /> */}
       <Footer />
     </>
   )

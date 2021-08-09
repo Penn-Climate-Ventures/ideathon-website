@@ -1,57 +1,63 @@
 import React from "react"
 import s from "styled-components"
 import { Title, Subtitle } from "./shared/Typography"
+import Button from "./shared/Button"
 import Chevron from "../images/svg/chevron.svg"
 
 import { mediaMaxWidth } from "../utils/constants"
 
 const HeroTitle = s(Title)`
-  margin-top: -2rem;
+  ${mediaMaxWidth("768px")}{
+  margin: 2rem;
+}
+`
 
+const HeroSubtitle = s(Subtitle)`
   ${mediaMaxWidth("768px")}{
     margin: 2rem;
   }
 `
 
-const SpacedSubtitle = s(Subtitle)`
-  margin-left: 4rem;
-`
-
 const InlineBlock = s.div`
   text-align: left;
   display: inline-block;
+  padding: 0 50px;
 `
 
 const HeroLayout = ({ className, scrollTo }) => (
   <div className={`container has-text-centered ${className}`}>
     <InlineBlock>
-      <SpacedSubtitle css={` 
-        ${mediaMaxWidth("768px")}{
-          float: right;
-          margin-right: 2rem;
-        }
-      `}>
-        APRIL 3rd - 17th
-      </SpacedSubtitle>
-      <HeroTitle>Penn Climate Ventures Ideathon</HeroTitle>
-      <SpacedSubtitle css={`
-        ${mediaMaxWidth("768px")}{
-          display: none;
-        }
-      `}>
+      <Subtitle>
+        September 21 - 25 | Open to students at Penn.
+      </Subtitle>
+      <Title>Penn Climate Ventures Ideathon</Title>
+      <Subtitle>
         catalyzing climate action
-      </SpacedSubtitle>
+      </Subtitle>
     </InlineBlock>
     <br />
+    <Button 
+      css={`display: block; 
+            width: 350px; 
+            margin: 50px auto;
+            background-color: #86b3d1;
+            font-weight: bold;
+
+            :hover {
+              background-color: #86b3d1;
+            }`}>
+      Registration Opens Soon
+    </Button>
+
     <a>
       <Chevron onClick={scrollTo} css={`
-        width: 4rem;
-        margin-top: 10vw;
+        width: 3rem;
+        margin-top: 10px;
       `} />
     </a>
   </div>
 )
 
 export const Hero = s(HeroLayout)`
-  margin-top: 10vw;
+  margin: 130px auto;
 `

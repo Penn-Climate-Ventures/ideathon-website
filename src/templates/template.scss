@@ -1,16 +1,20 @@
 h1 {
     font-size: 6rem;
-    font-family: Roboto ;
+    font-family: Roboto;
 }
 
 #markdown {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: Avenir;
+    padding: 90px 8vw;
+    color: black;
 
     h1 {
         font-size: 4rem;
         font-family: Roboto;
         font-weight: bold;
+        line-height: 4rem;
+        margin-bottom: 15px;
         color: #3083BC;
     }
 
@@ -18,24 +22,37 @@ h1 {
         font-size: 2rem;
         font-family: Roboto;
         font-weight: bold;
+        padding: 10px 0;
     }
 
     h3, h4, h5, h6 {
         font-size: 1.5rem;
         font-family: Roboto;
         font-weight: bold;
+        padding-top: 5px;
     }
 
     details {
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         margin-bottom: 1rem;
         summary {
             font-weight: bold;
+            font-family: Roboto;
+            margin-bottom: 0.5rem;
         }
     }
 
     ul {
-        list-style-type: circle;
+        all: revert;
+    }
+
+    a {
+        color: #84B23B;
+        transition: 0.1s;
+
+        &:hover {
+          color: #688a33;
+        }
     }
 
 }

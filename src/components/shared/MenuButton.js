@@ -1,23 +1,24 @@
 import s from 'styled-components'
-import { mediaMaxWidth } from "../../utils/constants"
+import { mediaMaxWidth, GREY, STEEL_BLUE } from "../../utils/constants"
+import "../../pages/styles.scss"
 
+//FIXME: temp changed font-family from Roboto Bold to Roboto since I 
+//couldn't find the Roboto Bold link
 const MenuButton = s.a`
     background-color: transparent;
-    border: .2rem solid #363635;
+    flex: 0 1 content;
     outline: none;
-    //float: ${({ right }) => right ? "right" : "left"};
-    padding: 0.6rem 2.8rem 0.6rem 2.8rem;
-    color: #363635;
+    padding: 0 1rem;
+    color: ${GREY};
     cursor: pointer;
     z-index: -1;
-    font-size: calc(${({ fontSize }) => fontSize || '0.4rem'} + 1vw);
-    font-family: roboto bold;
+    font-size: 1rem;
+    font-family: roboto; 
     font-weight: bold;
     transition: 0.2s;
 
     :hover {
-        background-color: #363635;
-        color: white;
+        color: ${STEEL_BLUE};
     }
 
     ${mediaMaxWidth("768px")} {
