@@ -1,8 +1,8 @@
 {
-  "name": "pcv-prize-website",
+  "name": "pcv-ideathon-website",
   "version": "1.0.0",
   "private": true,
-  "description": "PCV Prize Website",
+  "description": "PCV Ideathon Website",
   "author": "sigmachirality",
   "keywords": [
     "gatsby"
