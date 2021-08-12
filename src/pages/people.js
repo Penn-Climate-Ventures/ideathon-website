@@ -88,10 +88,10 @@ const PCVTeam = () => {
 const People = () => {
   return (
     <>
-      <Helmet defaultTitle="PCV Prize" titleTemplate="%s | PCV Prize" defer={false}>
+      <Helmet defaultTitle="PCV Ideathon" titleTemplate="%s | PCV Ideathon" defer={false}>
         <Title>People</Title>
         <meta charSet="utf-8" />
-        <link rel="canonical" href={"https://www.prize.pennclimateventures.org/people"} />
+        <link rel="canonical" href={"https://www.ideathon.pennclimateventures.org/people"} />
         <meta name="description" content="Penn Climate Ventures official prize people." />
       </Helmet>
       <Navbar />

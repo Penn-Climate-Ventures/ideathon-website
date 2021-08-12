@@ -12,11 +12,11 @@ const Logo = s.img`
 
 const Sponsors = () => (
     <>
-        <Helmet defaultTitle="PCV Prize" titleTemplate="%s | PCV Prize">
+        <Helmet defaultTitle="PCV Ideathon" titleTemplate="%s | PCV Ideathon">
                 <title defer={false}>Sponsors</title>
                 <meta charSet="utf-8" />
-                <link rel="canonical" href="https://www.prize.pennclimateventures.org/sponsors" />
-                <meta name="description" content="Sponsor the Penn Climate Ventures Prize."/>
+                <link rel="canonical" href="https://www.ideathon.pennclimateventures.org/sponsors" />
+                <meta name="description" content="Sponsor the Penn Climate Ventures Ideathon."/>
         </Helmet>
         <Navbar />
         <div css={`padding: 90px 12vw;`}>

@@ -17,11 +17,11 @@ const IndexPage = () => {
   const scrollTo = () => sectionRef && sectionRef.current.scrollIntoView()
   return (
     <>
-      <Helmet defaultTitle="PCV Prize" titleTemplate="%s | PCV Prize">
+      <Helmet defaultTitle="PCV Ideathon" titleTemplate="%s | PCV Ideathon">
         <title defer={false}>Home</title>
         <meta charSet="utf-8" />
-        <link rel="canonical" href="https://www.prize.pennclimateventures.org/home" />
-        <meta name="description" content="Collegiate climate startup pitch competition. Open to all students around the globe."/>
+        <link rel="canonical" href="https://www.ideathon.pennclimateventures.org/home" />
+        <meta name="description" content="Collegiate climate startup pitch competition. Open to all students at Penn."/>
       </Helmet>
       <Navbar />
       <Hero scrollTo={scrollTo} />
