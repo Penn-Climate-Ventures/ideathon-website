@@ -1,6 +1,6 @@
 import React from "react"
 import s from "styled-components"
-import { Text, Link } from "./Typography"
+import { Text, Link, Subtitle } from "./Typography"
 
 const ImageSize = `190px`;
 
@@ -9,25 +9,25 @@ const Image = s.img`
     height: ${ImageSize};
     object-fit: cover;
     border-radius: 50%;
-    margin: 1vw;
+    margin: 10px;
 `
 
 const Caption = s.figcaption`
-    width: 350px;
-    font-family: roboto;
-    font-size: 1.4rem;
+    width: 250px;
+    font-family: lato;
+    font-size: 1.1rem;
     text-align: center;
 `
 
 const Headshot = ({imageSrc, imageAlt, name, description, linkedIn}) => (
-    <figure css={`text-align: center; padding: 15px 0`}>
+    <figure css={`text-align: center`}>
         {linkedIn 
             ? <Link href={linkedIn} target="_blank" rel="noopener noreferrer">
                 <Image src={imageSrc} alt={imageAlt}/>
             </Link> 
             : <Image src={imageSrc} alt={imageAlt}/>}
         <Caption>
-            <b>{name}</b>
+            <Subtitle fontSize="1.1rem" css={`letter-spacing: 5px`}>{name}</Subtitle>
             <br/>
             <Text>{description}</Text>
         </Caption>

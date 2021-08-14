@@ -1,7 +1,7 @@
 import React from "react"
 import s from "styled-components"
 import { Title, Subtitle, Text } from "./shared/Typography"
-import { STEEL_BLUE, mediaMaxWidth } from "../utils/constants"
+import { LIGHT_BLUE, mediaMaxWidth } from "../utils/constants"
 
 const LevelItem = s.div.attrs(() => ({
   className: "level-item has-text-centered"
@@ -24,26 +24,24 @@ const Level = s.div`
 `
 
 const PrizeTitle = s(Text)`
-    font-family: roboto;
+    font-family: lato;
     font-weight: bold;
-    color: ${STEEL_BLUE};
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 `
 
 const PrizeSubtitle = s(Text)`
-    font-family: roboto;
+    font-family: lato;
     font-weight: bold;
-    color: ${STEEL_BLUE};
     text-align: center;
-    font-size: 3.5rem;
+    font-size: 3rem;
 `
 
 const PrizeText = s(Text)`
-    font-family: roboto;
+    font-family: lato;
     font-weight: bold;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 10px 0;
 `
 
@@ -55,7 +53,7 @@ const Prizes = () => (
           padding: 3vw;
           display: block;
           margin: 4vw auto 1vw`}>
-      <Subtitle center>Prizes</Subtitle>
+      <Subtitle center css={`padding-bottom: 10px`}>Prizes</Subtitle>
       <Level>
           <LevelItem>
               <PrizeTitle>First</PrizeTitle>
@@ -71,8 +69,8 @@ const Prizes = () => (
           </LevelItem>
       </Level>
       <PrizeText>Fourth: $200</PrizeText>
-      <PrizeText>Honorable Mention: $100</PrizeText>
-      <Text fontSize="1.5rem" center>+ Additional funding for continued engagement and development!</Text>
+      <PrizeText>Fifth: $100</PrizeText>
+      {/* <Text fontSize="1.5rem" center>+ Additional funding for continued engagement and development!</Text> */}
   </div>
 )
 

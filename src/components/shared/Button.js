@@ -1,24 +1,24 @@
 import s from 'styled-components'
-import { mediaMaxWidth } from "../../utils/constants"
+import { mediaMaxWidth, LIGHT_BLUE } from "../../utils/constants"
 
 const Button = s.a`
     background-color: transparent;
-    border: .2rem solid #363635;
+    border: .2rem solid ${LIGHT_BLUE};
     outline: none;
     display: inline-block;
     margin-top: 1vw;
     padding: 0.3rem 2.8rem;
-    color: #363635;
+    color: ${LIGHT_BLUE};
     cursor: pointer;
     border-radius: 999px;
     z-index: -1;
     font-size: 1.2rem;
-    font-family: roboto;
+    font-family: Lato;
     font-weight: bold;
     transition: 0.2s;
 
     :hover {
-        background-color: #363635;
+        background-color: ${LIGHT_BLUE};
         color: white;
     }
 
