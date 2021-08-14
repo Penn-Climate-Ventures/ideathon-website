@@ -1,5 +1,5 @@
 import s from 'styled-components'
-import { mediaMaxWidth, GREY, STEEL_BLUE } from "../../utils/constants"
+import { mediaMaxWidth, GREY, LIGHT_BLUE } from "../../utils/constants"
 import "../../pages/styles.scss"
 
 //FIXME: temp changed font-family from Roboto Bold to Roboto since I 
@@ -13,12 +13,12 @@ const MenuButton = s.a`
     cursor: pointer;
     z-index: -1;
     font-size: 1rem;
-    font-family: roboto; 
+    font-family: lato; 
     font-weight: bold;
     transition: 0.2s;
 
     :hover {
-        color: ${STEEL_BLUE};
+        color: ${LIGHT_BLUE};
     }
 
     ${mediaMaxWidth("768px")} {

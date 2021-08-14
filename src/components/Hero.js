@@ -6,16 +6,11 @@ import Chevron from "../images/svg/chevron.svg"
 
 import { mediaMaxWidth } from "../utils/constants"
 
-const HeroTitle = s(Title)`
-  ${mediaMaxWidth("768px")}{
-  margin: 2rem;
-}
-`
-
 const HeroSubtitle = s(Subtitle)`
-  ${mediaMaxWidth("768px")}{
-    margin: 2rem;
-  }
+  all: unset;
+  font-size: 2rem;
+  font-family: Lato;
+  font-weight: bold;
 `
 
 const InlineBlock = s.div`
@@ -27,25 +22,20 @@ const InlineBlock = s.div`
 const HeroLayout = ({ className, scrollTo }) => (
   <div className={`container has-text-centered ${className}`}>
     <InlineBlock>
-      <Subtitle>
-        September 21 - 25 | Open to students at Penn.
-      </Subtitle>
-      <Title>Penn Climate Ventures Ideathon</Title>
-      <Subtitle>
+      <HeroSubtitle>
+        September 21 - 25 | Open to all students at Penn.
+      </HeroSubtitle>
+      <Title fontSize="4rem">Penn Climate Ventures Ideathon</Title>
+      <HeroSubtitle>
         catalyzing climate action
-      </Subtitle>
+      </HeroSubtitle>
     </InlineBlock>
     <br />
     <Button 
       css={`display: block; 
             width: 350px; 
             margin: 50px auto;
-            background-color: #86b3d1;
-            font-weight: bold;
-
-            :hover {
-              background-color: #86b3d1;
-            }`}>
+            font-weight: bold`}>
       Registration Opens Soon
     </Button>
 

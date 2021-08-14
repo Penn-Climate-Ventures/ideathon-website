@@ -108,10 +108,10 @@ Prize Amounts:
 - Second Place: $400
 - Third Place: $300
 - Fourth Place: $200
-- Honorable Mention: $100
-- Continued Engagement Fund:  two teams will be selected to have the opportunity to pursue an
+- Fifth Mention: $100
+<!-- - Continued Engagement Fund:  two teams will be selected to have the opportunity to pursue an
 additional $1000 each to cover development costs should they continue to develop their pitch into a
-startup
+startup -->
 
 <br>
 

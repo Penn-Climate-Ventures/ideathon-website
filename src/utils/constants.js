@@ -6,6 +6,8 @@ export const MIDNIGHT_BLUE = `#07004D`;
 export const OXFORD_BLUE = `#05052C`;
 export const FOCUS_GREEN = `#688a33`;
 export const GREY = `#363635`;
+export const LIGHT_BLUE = `#3A8EFB`;
+export const DARK_BLUE = `#1C78EE`;
 
 export const mediaMinWidth = (width) =>
   `@media screen and (min-width: ${width})`

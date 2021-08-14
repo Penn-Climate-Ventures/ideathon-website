@@ -1,35 +1,48 @@
 h1 {
     font-size: 6rem;
-    font-family: Roboto;
+    font-family: Lato;
 }
 
 #markdown {
     font-size: 1.1rem;
-    font-family: Avenir;
-    padding: 90px 8vw;
+    font-family: Lato;
+    padding: 60px 8vw;
     color: black;
 
     h1 {
-        font-size: 4rem;
-        font-family: Roboto;
+        font-size: 3.5rem;
+        font-family: Lato;
         font-weight: bold;
         line-height: 4rem;
         margin-bottom: 15px;
-        color: #3083BC;
+        color: #3A8EFB;
     }
 
     h2 {
-        font-size: 2rem;
-        font-family: Roboto;
+        font-size: 1.5rem;
+        font-family: Lato;
         font-weight: bold;
-        padding: 10px 0;
+        padding-top: 10px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        color: #3A8EFB;
     }
 
-    h3, h4, h5, h6 {
+    h3 {
         font-size: 1.5rem;
-        font-family: Roboto;
+        font-family: Lato;
         font-weight: bold;
         padding-top: 5px;
+        text-transform: uppercase;
+        letter-spacing: 8px;
+        color: #3A8EFB;
+    }
+
+    h4, h5, h6 {
+        font-size: 1.5rem;
+        font-family: Lato;
+        font-weight: bold;
+        padding-top: 10px;
     }
 
     details {
@@ -37,21 +50,26 @@ h1 {
         margin-bottom: 1rem;
         summary {
             font-weight: bold;
-            font-family: Roboto;
+            font-family: Lato;
             margin-bottom: 0.5rem;
         }
     }
 
     ul {
         all: revert;
+        margin: 0;
+    }
+
+    li {
+        margin-left: 20px;
     }
 
     a {
-        color: #84B23B;
+        color: #3A8EFB;
         transition: 0.1s;
 
         &:hover {
-          color: #688a33;
+          color: #1C78EE;
         }
     }
 

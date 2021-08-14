@@ -1,18 +1,17 @@
 import React from "react"
 import s from "styled-components"
 import { Subtitle, Text, Link } from "./shared/Typography"
-import { mediaMaxWidth, STEEL_BLUE, GREEN } from "../utils/constants"
-import Button from "./shared/Button"
+import { mediaMaxWidth, LIGHT_BLUE } from "../utils/constants"
 
 const Date = s(Text)`
   font-weight: bold;
-  font-family: roboto;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   flex-basis: content;
+  letter-spacing: 7px
 `
 
 const EventText = s(Text)`
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-left: 40px;
 
   ${mediaMaxWidth("1000px")} {
@@ -36,7 +35,7 @@ const Description = s.div`
   padding: 0 40px;
 `
 const Schedule = s.div`
-  border-left: 0.3rem solid ${GREEN}; 
+  border-left: 0.3rem solid ${LIGHT_BLUE}; 
   margin: 2vw auto;
   width: fit-content;
 `
@@ -44,8 +43,7 @@ const Schedule = s.div`
 const TimelineLayout = React.forwardRef(({ className }, ref) => (
   <div ref={ref}>
     <Description>
-      <Subtitle fontSize="1.8rem" center css={`padding: 5px 0;`}>Dive into the most pressing environmental issues of today.</Subtitle>
-      <Text fontSize="1.3rem" roboto bold center>Kickstart a climate startup in three weeks, supported by a world-class network of mentors.</Text>
+      <Text fontSize="1.5rem" center bold css={`padding: 5px 0;`}>Dive into the most pressing environmental issues of today.</Text>
     </Description>
 
     <Schedule>
@@ -78,7 +76,7 @@ const TimelineLayout = React.forwardRef(({ className }, ref) => (
     <Link 
       css={`
         text-align: center;
-        font-family: roboto;
+        font-family: lato;
         margin: 0 auto;
         display: block;
       `}
