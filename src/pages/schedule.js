@@ -3,10 +3,10 @@ import Helmet from "react-helmet"
 import { Navbar, Footer} from "../components"
 import s from "styled-components"
 import { Title, Text } from "../components/shared/Typography"
-import {GREEN, STEEL_BLUE} from "../utils/constants";
+import { LIGHT_BLUE } from "../utils/constants";
 
 const Date = s.h3`
-    font-family: roboto;
+    font-family: lato;
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 10px;
@@ -14,19 +14,17 @@ const Date = s.h3`
 `
 
 const EventGroup = s.div`
-    border-left: 3px solid ${GREEN};
+    border-left: 3px solid ${LIGHT_BLUE};
     margin-bottom: 30px;
     padding-left: 20px;
 `
 
 const Event = s.div`
-  padding: 8px 0;
+  padding: 2px 0;
 `
 
 const EventTime = s(Text)`
-  font-size: 1rem;
-  font-weight: 500;
-  color: ${STEEL_BLUE};
+  color: ${LIGHT_BLUE};
 `
 
 const Timeline = () => (
@@ -94,7 +92,7 @@ const Schedule = () => (
       <meta name="description" content="Penn Climate Ventures official schedule."/>
     </Helmet>
     <Navbar />
-    <div css={`padding: 90px 12vw;`}>
+    <div css={`padding: 60px 12vw;`}>
       <Title>PCV Ideathon Fall 2021 Schedule</Title>
       <Text center css={`margin: 60px auto;`}>
         <i>More details will be released in September! All times Eastern Standard.</i>

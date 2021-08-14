@@ -58,7 +58,7 @@ const FooterLayout = () => <footer>
         <FooterButton border href="/People">People</FooterButton>
         <FooterButton border href="/Sponsors">Sponsors</FooterButton>
         <FooterButton border href="/faq">FAQs</FooterButton>
-        <FooterButton href="/about">About PCV</FooterButton>
+        <FooterButton href="https://pennclimateventures.org/" target="_blank" rel="noopener noreferrer">About PCV</FooterButton>
         <SocialMediaWrapper>
         <a href="https://www.facebook.com/pennclimateventures"><SocialMedia src={Facebook} alt="Facebook"/></a>
         <a href="https://www.instagram.com/pennclimateventures/?hl=en"><SocialMedia src={Instagram} alt="Instagram"/></a>

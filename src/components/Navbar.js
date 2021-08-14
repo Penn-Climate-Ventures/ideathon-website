@@ -1,7 +1,7 @@
 import React, {Component } from 'react'
 import s from "styled-components"
 import Logo from "../images/logo.png"
-import { STEEL_BLUE, MIDNIGHT_BLUE, GREEN } from "../utils/constants"
+import { LIGHT_BLUE } from "../utils/constants"
 import {navLinks, smLinks} from "../data/navigation"
 
 const NavWrapper = s.nav`
@@ -28,7 +28,7 @@ const NavBrand = s.a`
 
 const NavBrandImg = s.img`
   padding-left: 10px;
-  height: 60px;
+  height: 30px;
   width: auto;
 `
 
@@ -44,7 +44,7 @@ const ToggleMenuButton = s.button`
   flex-direction: column;
   
   &:hover > *, &:focus > * {
-    background-color: ${STEEL_BLUE};
+    background-color: ${LIGHT_BLUE};
   }
   
   @media screen and (min-width: 900px) {
@@ -53,7 +53,7 @@ const ToggleMenuButton = s.button`
 `
 
 const IconBar = s.span`
-  background-color: ${MIDNIGHT_BLUE};
+  background-color: ${LIGHT_BLUE};
   height: 2px;
   width: 25px;
   margin: 3px;
@@ -115,7 +115,7 @@ const NavLinks = s.div`
 `
 
 export const NavButton = s.a`
-  font-family: roboto;
+  font-family: lato;
   color: black;
   font-weight: 600;
   margin: 10px 10px;
@@ -126,7 +126,7 @@ export const NavButton = s.a`
   transition: 0.2s;
   
   &:hover {
-    color: ${STEEL_BLUE};
+    color: ${LIGHT_BLUE};
   }
   
   @media screen and (min-width: 900px) {
@@ -229,9 +229,13 @@ export class Navbar extends Component {
           <NavMenu style={this.getOpened() ? navMenuOpenedStyle : null}>
             <NavLinks style={this.getOpened() ? navLinksOpenedStyle : null}>
               { navLinks.map( navLink => (
-                <NavButton rel="noreferrer noopener" href={navLink.url} >
+                (navLink.linkName === "About PCV" 
+                ? <NavButton  target="_blank" rel="noreferrer noopener" href={navLink.url}>
                   {navLink.linkName}
                 </NavButton>
+                : <NavButton rel="noreferrer noopener" href={navLink.url} >
+                  {navLink.linkName}
+                </NavButton>)
               )) }
             </NavLinks>
             <NavLinks style={this.getOpened() ? navIconsOpenedStyle : null}>

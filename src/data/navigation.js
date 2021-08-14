@@ -29,7 +29,7 @@ export const navLinks = [
   },
   {
     linkName: "About PCV",
-    url: "/about"
+    url: "https://pennclimateventures.org/"
   },
 ]
 
