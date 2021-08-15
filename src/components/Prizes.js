@@ -1,7 +1,8 @@
 import React from "react"
 import s from "styled-components"
-import { Title, Subtitle, Text } from "./shared/Typography"
-import { LIGHT_BLUE, mediaMaxWidth } from "../utils/constants"
+import { Subtitle, Text } from "./shared/Typography"
+import { mediaMaxWidth } from "../utils/constants"
+import Button from "./shared/Button"
 
 const LevelItem = s.div.attrs(() => ({
   className: "level-item has-text-centered"
@@ -45,33 +46,40 @@ const PrizeText = s(Text)`
     margin: 10px 0;
 `
 
-const Prizes = () => (
-  <div
-      css={`border-style: solid;
-          border-radius: 50px;
-          width: 60vw;
-          padding: 3vw;
-          display: block;
-          margin: 4vw auto 1vw`}>
-      <Subtitle center css={`padding-bottom: 10px`}>Prizes</Subtitle>
-      <Level>
-          <LevelItem>
-              <PrizeTitle>First</PrizeTitle>
-              <PrizeSubtitle>$500</PrizeSubtitle>
-          </LevelItem>
-          <LevelItem>
-              <PrizeTitle>Second</PrizeTitle>
-              <PrizeSubtitle>$400</PrizeSubtitle>
-          </LevelItem>
-          <LevelItem>
-              <PrizeTitle>Third</PrizeTitle>
-              <PrizeSubtitle>$300</PrizeSubtitle>
-          </LevelItem>
-      </Level>
-      <PrizeText>Fourth: $200</PrizeText>
-      <PrizeText>Fifth: $100</PrizeText>
-      {/* <Text fontSize="1.5rem" center>+ Additional funding for continued engagement and development!</Text> */}
+const PrizeAmount = () => (
+    <div
+        css={`border-style: solid;
+            border-radius: 50px;
+            width: 60vw;
+            padding: 3vw;
+            display: block;
+            margin: 4vw auto 1vw`}>
+        <Subtitle center css={`padding-bottom: 10px`}>Prizes</Subtitle>
+        <Level>
+            <LevelItem>
+                <PrizeTitle>1st</PrizeTitle>
+                <PrizeSubtitle>$500</PrizeSubtitle>
+            </LevelItem>
+            <LevelItem>
+                <PrizeTitle>2nd</PrizeTitle>
+                <PrizeSubtitle>$400</PrizeSubtitle>
+            </LevelItem>
+            <LevelItem>
+                <PrizeTitle>3rd</PrizeTitle>
+                <PrizeSubtitle>$300</PrizeSubtitle>
+            </LevelItem>
+        </Level>
+        <PrizeText>4th: $200</PrizeText>
+        <PrizeText>5th: $100</PrizeText>
+        {/* <Text fontSize="1.5rem" center>+ Additional funding for continued engagement and development!</Text> */}
   </div>
+)
+
+const Prizes = () => (
+    <div>
+        <PrizeAmount/>
+        <Button href="/people" css={`margin: 40px auto; display: block`}>Meet Our Judges</Button>
+    </div>
 )
 
 export default Prizes
