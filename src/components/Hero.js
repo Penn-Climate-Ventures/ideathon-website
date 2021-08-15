@@ -4,8 +4,6 @@ import { Title, Subtitle } from "./shared/Typography"
 import Button from "./shared/Button"
 import Chevron from "../images/svg/chevron.svg"
 
-import { mediaMaxWidth } from "../utils/constants"
-
 const HeroSubtitle = s(Subtitle)`
   all: unset;
   font-size: 2rem;
@@ -33,9 +31,7 @@ const HeroLayout = ({ className, scrollTo }) => (
     <br />
     <Button 
       css={`display: block; 
-            width: 350px; 
-            margin: 50px auto;
-            font-weight: bold`}>
+            margin: 50px auto;`}>
       Registration Opens Soon
     </Button>
 

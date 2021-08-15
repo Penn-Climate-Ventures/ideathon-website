@@ -12,10 +12,12 @@ const Button = s.a`
     cursor: pointer;
     border-radius: 999px;
     z-index: -1;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-family: Lato;
     font-weight: bold;
     transition: 0.2s;
+    text-align: center;
+    width: max-content;
 
     :hover {
         background-color: ${LIGHT_BLUE};

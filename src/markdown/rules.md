@@ -104,11 +104,11 @@ will not be able to attend!
 ## 6. Prizes
 
 Prize Amounts:
-- First Place: $500
-- Second Place: $400
-- Third Place: $300
-- Fourth Place: $200
-- Fifth Mention: $100
+- 1st Place: $500
+- 2nd Place: $400
+- 3rd Place: $300
+- 4th Place: $200
+- 5th Mention: $100
 <!-- - Continued Engagement Fund:  two teams will be selected to have the opportunity to pursue an
 additional $1000 each to cover development costs should they continue to develop their pitch into a
 startup -->

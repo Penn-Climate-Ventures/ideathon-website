@@ -1,13 +1,15 @@
 import React from "react"
 import s from "styled-components"
-import { Subtitle, Text, Link } from "./shared/Typography"
+import { Text } from "./shared/Typography"
 import { mediaMaxWidth, LIGHT_BLUE } from "../utils/constants"
+import Button from "./shared/Button"
+
 
 const Date = s(Text)`
   font-weight: bold;
   font-size: 1.5rem;
   flex-basis: content;
-  letter-spacing: 7px
+  letter-spacing: 5px;
 `
 
 const EventText = s(Text)`
@@ -48,43 +50,32 @@ const TimelineLayout = React.forwardRef(({ className }, ref) => (
 
     <Schedule>
       <EventGroup>
-        <Date>SEPT 21</Date>
-        <EventText>Opening keynote</EventText>
+        <Date>SEPT 9</Date>
+        <EventText>Registration opens</EventText>
       </EventGroup>
 
       <EventGroup>
-        <Date>SEPT 22</Date>
-        <EventText>Registration deadline</EventText>
+        <Date>SEPT 17</Date>
+        <EventText>Life cycle analysis workshop</EventText>
       </EventGroup>
 
       <EventGroup>
-        <Date>SEPT 23</Date>
-        <EventText>Climate</EventText>
+        <Date>SEPT 20</Date>
+        <EventText>Opening keynote + registration deadline</EventText>
       </EventGroup>
 
       <EventGroup>
         <Date>SEPT 24</Date>
-        <EventText>Pitches + judging</EventText>
+        <EventText>Submissions due + judging</EventText>
       </EventGroup>
 
       <EventGroup>
         <Date>SEPT 25</Date>
-        <EventText>Closing keynote + winners announced</EventText>
+        <EventText>Closing ceremony + winners announced</EventText>
       </EventGroup>
     </Schedule>
 
-    <Link 
-      css={`
-        text-align: center;
-        font-family: lato;
-        margin: 0 auto;
-        display: block;
-      `}
-      bold 
-      fontSize="1.5rem"
-      href="/schedule">
-        Full Event Schedule
-    </Link>
+    <Button href="/schedule" css={`margin: 40px auto; display: block`}>Full Event Schedule</Button>
   </div>
 ))
 
