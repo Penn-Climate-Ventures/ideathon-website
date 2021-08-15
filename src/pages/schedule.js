@@ -51,6 +51,7 @@ const Timeline = () => (
     <EventGroup>
       <Event>
         <Text>Opening Keynote + Submissions Q&As</Text>
+        <EventTime>9:00 PM</EventTime>
       </Event>
       <Event>
         <Text>Registration Deadline</Text>
