@@ -8,7 +8,7 @@ const LevelItem = s.div.attrs(() => ({
   className: "level-item has-text-centered"
 }))`
   flex-direction: column;
-  width: 18vw;
+  width: 50px;
   margin: 0 auto;
 `
 
@@ -46,14 +46,21 @@ const PrizeText = s(Text)`
     margin: 10px 0;
 `
 
+const PrizeContainer = s.div`
+    border-style: solid;
+    border-radius: 50px;
+    width: 60%;
+    padding: 20px;
+    display: block;
+    margin: 40px auto 10px;
+
+    ${mediaMaxWidth("768px")} {
+        width: 70%;
+    }
+`
+
 const PrizeAmount = () => (
-    <div
-        css={`border-style: solid;
-            border-radius: 50px;
-            width: 60vw;
-            padding: 3vw;
-            display: block;
-            margin: 4vw auto 1vw`}>
+    <PrizeContainer>
         <Subtitle center css={`padding-bottom: 10px`}>Prizes</Subtitle>
         <Level>
             <LevelItem>
@@ -72,7 +79,7 @@ const PrizeAmount = () => (
         <PrizeText>4th: $200</PrizeText>
         <PrizeText>5th: $100</PrizeText>
         {/* <Text fontSize="1.5rem" center>+ Additional funding for continued engagement and development!</Text> */}
-  </div>
+  </PrizeContainer>
 )
 
 const Prizes = () => (

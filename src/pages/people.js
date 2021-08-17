@@ -5,6 +5,7 @@ import "../pages/styles.scss"
 import { Title, Text, Subtitle} from "../components/shared/Typography"
 import { Navbar, Footer } from "../components"
 import Headshot from "../components/shared/Headshot"
+import { mediaMaxWidth } from "../utils/constants"
 
 import AaronRatner from "../images/2021/judges/AaronRatner.jpg"
 import BrettLasher from "../images/2021/judges/BrettLasher.jpg"
@@ -24,13 +25,22 @@ const GridLayout = s.div`
   justify-content: flex-start;
 `
 
+const PersonLayout = s.div`
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 15px 0;
+
+  ${mediaMaxWidth("900px")} {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+`
+
 const Person = ({imageSrc, imageAlt, name, linkedIn, title, bio}) => (
-  <div 
-    css={`
-      display: flex;
-      align-items: flex-start;
-      justify-content: flex-start;
-      padding: 15px 0;`}>
+  <PersonLayout>
     <Headshot
       imageSrc={imageSrc}
       imageAlt={imageAlt}
@@ -40,7 +50,7 @@ const Person = ({imageSrc, imageAlt, name, linkedIn, title, bio}) => (
       <Text bold css={`margin-bottom: 10px`}>{title}</Text>
       <Text>{bio}</Text>
     </div>
-  </div>
+  </PersonLayout>
 )
 
 const Judges = () => (
