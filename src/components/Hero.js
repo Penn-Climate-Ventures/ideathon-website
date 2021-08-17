@@ -7,7 +7,7 @@ import Chevron from "../images/svg/chevron.svg"
 const HeroSubtitle = s(Subtitle)`
   all: unset;
   font-size: 2rem;
-  font-family: Lato;
+  font-family: 'Lato', sans-serif;
   font-weight: bold;
 `
 
