@@ -14,7 +14,7 @@ const Image = s.img`
 
 const Caption = s.figcaption`
     width: 250px;
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
     text-align: center;
 `

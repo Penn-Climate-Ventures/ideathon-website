@@ -25,21 +25,21 @@ const Level = s.div`
 `
 
 const PrizeTitle = s(Text)`
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 1.5rem;
 `
 
 const PrizeSubtitle = s(Text)`
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 3rem;
 `
 
 const PrizeText = s(Text)`
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     text-align: center;
     font-size: 1.5rem;
