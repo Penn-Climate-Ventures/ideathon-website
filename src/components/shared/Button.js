@@ -13,7 +13,7 @@ const Button = s.a`
     border-radius: 999px;
     z-index: -1;
     font-size: 1.3rem;
-    font-family: Lato;
+    font-family: 'Lato', sans-serif;
     font-weight: bold;
     transition: 0.2s;
     text-align: center;

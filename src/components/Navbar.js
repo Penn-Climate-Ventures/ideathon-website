@@ -115,7 +115,7 @@ const NavLinks = s.div`
 `
 
 export const NavButton = s.a`
-  font-family: lato;
+  font-family: 'Lato', sans-serif;
   color: black;
   font-weight: 600;
   margin: 10px 10px;

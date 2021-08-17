@@ -6,7 +6,7 @@ import { Title, Text } from "../components/shared/Typography"
 import { LIGHT_BLUE } from "../utils/constants";
 
 const Date = s.h3`
-    font-family: lato;
+    font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
     margin-top: 10px;

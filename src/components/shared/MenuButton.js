@@ -13,7 +13,7 @@ const MenuButton = s.a`
     cursor: pointer;
     z-index: -1;
     font-size: 1rem;
-    font-family: lato; 
+    font-family: 'Lato', sans-serif; 
     font-weight: bold;
     transition: 0.2s;
 
