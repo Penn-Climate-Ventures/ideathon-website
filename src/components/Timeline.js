@@ -36,6 +36,7 @@ const EventGroup = s.span`
 const Description = s.div`
   padding: 0 40px;
 `
+
 const Schedule = s.div`
   border-left: 0.3rem solid ${LIGHT_BLUE}; 
   margin: 2vw auto;
@@ -50,7 +51,7 @@ const TimelineLayout = React.forwardRef(({ className }, ref) => (
 
     <Schedule>
       <EventGroup>
-        <Date>SEPT 9</Date>
+        <Date>SEPT 9 &nbsp;</Date>
         <EventText>Registration opens</EventText>
       </EventGroup>
 
