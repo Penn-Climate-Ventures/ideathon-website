@@ -39,7 +39,7 @@ const Timeline = () => (
     <Date>Friday, Sept. 17</Date>
     <EventGroup>
       <Event>
-        <Text>Life Cycle Analysis Workshop</Text>
+        <Text>Life Cycle Assessment Workshop</Text>
         <EventTime>5:00 PM</EventTime>
       </Event>
       <Event>
