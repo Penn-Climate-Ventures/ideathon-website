@@ -84,6 +84,7 @@ const Sponsors = () => (
                 logoSize="small"
                 name="SJF Ventures"
                 bio="SJF Ventures is a venture capital fund focused on delivering superior financial returns through investments in high growth, positive impact companies that are creating a healthier, smarter and cleaner future. SJF has a 22-year successful record of assisting visionary and talented management teams in building industry leading businesses. SJF provides strong expertise and networks in many sectors, including clean energy and mobility, supply chain and circular economy, sustainable food, health and wellness, and education and workforce technologies. SJF Ventures I, II, III, IV, and V have invested in over 75 portfolio companies to date."
+                website="https://sjfventures.com/"
                 facebook="https://www.facebook.com/sjfventures"
                 linkedin="https://twitter.com/sjfventures"
                 twitter="https://www.linkedin.com/company/sjf-ventures/mycompany/" />
