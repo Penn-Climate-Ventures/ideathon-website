@@ -30,7 +30,7 @@ const Social = s.div`
 `
 
 const SocialIcon = ({link, icon}) => (
-    <a href={link}>
+    <a href={link} target="_blank" rel="noopener noreferrer">
         <img
             css={`
                 height: 25px;
