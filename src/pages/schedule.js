@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import { Navbar, Footer} from "../components"
 import s from "styled-components"
-import { Title, Text } from "../components/shared/Typography"
+import { Title, Text, Link } from "../components/shared/Typography"
 import { LIGHT_BLUE } from "../utils/constants";
 
 const Date = s.h3`
@@ -39,7 +39,11 @@ const Timeline = () => (
     <Date>Friday, Sept. 17</Date>
     <EventGroup>
       <Event>
-        <Text>Life Cycle Assessment Workshop</Text>
+        <Text>
+          Life Cycle Assessment Workshop
+          <br/>
+          Register <Link href="https://airtable.com/shrylRB4E9v7mqKtq" target="_blank">here</Link>
+        </Text>
         <EventTime>5:00 PM</EventTime>
       </Event>
       <Event>
