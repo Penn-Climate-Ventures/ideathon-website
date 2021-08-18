@@ -52,7 +52,7 @@ not be available to help troubleshoot submissions after 8 PM on the 23rd!)
 <br>
 
 Submissions need to be in response to a challenge prompt. Find this year’s challenge
-prompts [here](/).
+prompts <a href="https://docs.google.com/document/d/1nNIDpyVx2AFbEktuyNywpaM0Ina0VVrtEGliJIREG0g/edit" target="_blank">here</a>.
 
 <br>
 
@@ -81,8 +81,8 @@ We encourage submissions to:
 ## 4. Judging
 
 Each pitch submission will be judged by a minimum team of 3 judges.
-- Please view the judge panel here:
-- Please view the judging rubric here:
+- Please view the judge panel [here](/people)
+- Please view the judging rubric <a href="https://docs.google.com/document/d/1xoabKihuelbsHdLFcgFZojomsYOHcek_1hvIZev-MQY/edit#heading=h.amcr9pdskspk" target="_blank">here</a>
 
 <br>
 
@@ -109,9 +109,7 @@ Prize Amounts:
 - 3rd Place: $300
 - 4th Place: $200
 - 5th Mention: $100
-<!-- - Continued Engagement Fund:  two teams will be selected to have the opportunity to pursue an
-additional $1000 each to cover development costs should they continue to develop their pitch into a
-startup -->
+- Continued Engagement Fund:  1 team will be selected to have the opportunity to pursue an additional $1000 each to cover development costs should they continue to develop their pitch into a startup
 
 <br>
 

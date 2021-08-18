@@ -78,7 +78,7 @@ const PrizeAmount = () => (
         </Level>
         <PrizeText>4th: $200</PrizeText>
         <PrizeText>5th: $100</PrizeText>
-        {/* <Text fontSize="1.5rem" center>+ Additional funding for continued engagement and development!</Text> */}
+        <Text fontSize="1.5rem" center>+ Additional funding for continued engagement and development!</Text>
   </PrizeContainer>
 )
 

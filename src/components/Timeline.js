@@ -57,7 +57,7 @@ const TimelineLayout = React.forwardRef(({ className }, ref) => (
 
       <EventGroup>
         <Date>SEPT 17</Date>
-        <EventText>Life cycle analysis workshop</EventText>
+        <EventText>Life cycle assessment workshop</EventText>
       </EventGroup>
 
       <EventGroup>

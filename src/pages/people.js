@@ -14,6 +14,7 @@ import MackenzieMarcotte from "../images/2021/judges/MackenzieMarcotte.jpg"
 import SuzanneShaw from "../images/2021/judges/SuzanneShaw.jpg"
 import MatthewCohen from "../images/2021/judges/MatthewCohen.jpg"
 import LaurenHartle from "../images/2021/judges/LaurenHartle.jpg"
+import JohnMichaelLaSalle from "../images/2021/judges/JohnMichaelLaSalle.jpg"
 
 import AmberLuong from "../images/2021/mentors/AmberLuong.jpg"
 import JackPolicar from "../images/2021/mentors/JackPolicar.jpg"
@@ -74,6 +75,14 @@ const Judges = () => (
         linkedIn="https://www.linkedin.com/in/brett-lasher-0b8256/"
         title="Executive Director of Cox Communications’ New Growth & Development group"
         bio="Brett Lasher is an innovation leader who heads innovation in the Energy vertical for Cox Communications’ New Growth & Development (NG&D) group.  In this role, he is responsible for ideating around new opportunities (both B2B and B2C) in electricity, water, gas and oil and then working to de-risk and commercialize these initiatives. He is very active in the Atlanta entrepreneurial community having served as a mentor on multiple occasions in both the TechStars and Boomtown accelerators.  In addition to his work at Cox, Brett currently serves as an advisor to nVenue (AI/ML data analytics company for sports content) and as a Limited Partner Ambassador for Energy Impact Partners helping to evaluate investment theses and start-up companies in the Energy space."/>
+
+      <Person 
+        imageSrc={JohnMichaelLaSalle}
+        imageAlt="John Michael LaSalle"
+        name="John Michael LaSalle"
+        linkedIn="https://www.linkedin.com/in/johnmichaellasalle/"
+        title="Urban Climate Action Consultant, World Bank and Climate Policy Initiative"
+        bio="John Michael is an urban planner focused on preparing urban infrastructure for climate change globally. He has a master of City Planning from the University of Pennsylvania and a bachelor's in international development and architecture from Calvin University. Previously, he worked as an architect on projects in Egypt, Morocco, and the US and at a startup using aerial imagery from drones for building inspections and mapping."/>
 
       <Person 
         imageSrc={KyleWelborn}
