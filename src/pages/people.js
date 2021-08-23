@@ -2,7 +2,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import s from "styled-components"
 import "../pages/styles.scss"
-import { Title, Text, Subtitle} from "../components/shared/Typography"
+import { Title, Text, Subtitle, Link } from "../components/shared/Typography"
 import { Navbar, Footer } from "../components"
 import Headshot from "../components/shared/Headshot"
 import { mediaMaxWidth } from "../utils/constants"
@@ -15,10 +15,13 @@ import SuzanneShaw from "../images/2021/judges/SuzanneShaw.jpg"
 import MatthewCohen from "../images/2021/judges/MatthewCohen.jpg"
 import LaurenHartle from "../images/2021/judges/LaurenHartle.jpg"
 import JohnMichaelLaSalle from "../images/2021/judges/JohnMichaelLaSalle.jpg"
+import HayleyMcCurdy from "../images/2021/judges/HayleyMcCurdy.jpg"
 
 import AmberLuong from "../images/2021/mentors/AmberLuong.jpg"
 import JackPolicar from "../images/2021/mentors/JackPolicar.jpg"
 import TedNetland from "../images/2021/mentors/TedNetland.jpg"
+import CynthiaWang from "../images/2021/mentors/CynthiaWang.jpg"
+import JoshMoser from "../images/2021/mentors/JoshMoser.jpg"
 
 const GridLayout = s.div`
   display: flex;
@@ -75,6 +78,14 @@ const Judges = () => (
         linkedIn="https://www.linkedin.com/in/brett-lasher-0b8256/"
         title="Executive Director of Cox Communications’ New Growth & Development group"
         bio="Brett Lasher is an innovation leader who heads innovation in the Energy vertical for Cox Communications’ New Growth & Development (NG&D) group.  In this role, he is responsible for ideating around new opportunities (both B2B and B2C) in electricity, water, gas and oil and then working to de-risk and commercialize these initiatives. He is very active in the Atlanta entrepreneurial community having served as a mentor on multiple occasions in both the TechStars and Boomtown accelerators.  In addition to his work at Cox, Brett currently serves as an advisor to nVenue (AI/ML data analytics company for sports content) and as a Limited Partner Ambassador for Energy Impact Partners helping to evaluate investment theses and start-up companies in the Energy space."/>
+
+      <Person 
+        imageSrc={HayleyMcCurdy}
+        imageAlt="Hayley McCurdy"
+        name="Hayley McCurdy"
+        linkedIn="https://www.linkedin.com/in/hayley-mccurdy/"
+        title="Equity Analyst at Terra Alpha Investments"
+        bio={<>Hayley is an investment professional with experience in sustainability-focused strategies within public equities and venture capital. As an equity analyst at <Link href="https://terraalphainvestments.com/who-we-are/">Terra Alpha Investments</Link>, Hayley researches global companies within the utilities and healthcare industries. Terra Alpha is a public equities manager with an innovative investment process of quantitative and qualitative analysis that helps identify leading companies with the optimal combination of enduring business models and superior environmental productivity.</>}/>
 
       <Person 
         imageSrc={JohnMichaelLaSalle}
@@ -140,12 +151,28 @@ const Mentors = () => (
         bio="Amber is currently the Head of Partnerships for Blue Sky Analytics. She has over 15 years of experience across the financial sector, policy, international development, and a range of climate change mitigation and adaptation efforts."/>
 
       <Person 
+        imageSrc={CynthiaWang}
+        imageAlt="Cynthia Wang"
+        name="Cynthia Wang"
+        linkedIn="https://www.linkedin.com/in/cynthia-wang2018/"
+        title="Master's student in Climate Change, Management, and Finance at Imperial College Business School, Researcher at Imperial College Grantham Institute"
+        bio="Cynthia Wang has a BA in Environmental Studies and Political Science from Penn and is pursuing an MSc in Climate Change, Management, and Finance from Imperial College Business School in London. She is currently a Researcher with the Grantham Institute, as well as a Graduate Intern with the Asian Development Bank, specializing in private-public partnerships and climate adaptation finance. Prior to London, she was a Princeton in Asia Sustainable Cities Fellow at the Natural Resources Defense Council (NRDC) in Beijing."/>
+
+      <Person 
         imageSrc={JackPolicar}
         imageAlt="Jack Policar"
         name="Jack Policar"
         linkedIn="https://www.linkedin.com/in/jack-policar/"
         title="COO of Phood"
         bio="Jack Policar is a Denver - NY based entrepreneur. He is currently the COO of Phood, a startup that allows college students to use dining dollars to order from DoorDash with free delivery (you can find more information at Phood.co) Outside of Phood, Jack teaches an entrepreneurship course, mentors a number of early-stage college student lead startups and is building a virtual sustainability community. "/>
+
+      <Person 
+        imageSrc={JoshMoser}
+        imageAlt="Josh Moser"
+        name="Josh Moser"
+        linkedIn="https://www.linkedin.com/in/josh-moser/"
+        title="Partner at Petri"
+        bio="Josh is an entrepreneur and investor in sustainability. Currently, he is a partner at Petri, and previously, he worked on several early-stage ventures in sustainability, food, and agriculture."/>
 
       <Person 
         imageSrc={TedNetland}
