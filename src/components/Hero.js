@@ -31,8 +31,10 @@ const HeroLayout = ({ className, scrollTo }) => (
     <br />
     <Button 
       css={`display: block; 
-            margin: 50px auto;`}>
-      Registration Opens Soon
+            margin: 50px auto;`}
+      href="https://airtable.com/shrBgu8tXTCMw8Ydk"
+      target="_blank" rel="noopener noreferrer">
+      Registration Open Until Sept 20
     </Button>
 
     <a>
