@@ -1,6 +1,6 @@
 import React from "react"
 import s from "styled-components"
-import { Text } from "./shared/Typography"
+import { Text, Link } from "./shared/Typography"
 import { mediaMaxWidth, LIGHT_BLUE } from "../utils/constants"
 import Button from "./shared/Button"
 
@@ -46,7 +46,11 @@ const Schedule = s.div`
 const TimelineLayout = React.forwardRef(({ className }, ref) => (
   <div ref={ref}>
     <Description>
-      <Text fontSize="1.5rem" center bold css={`padding: 5px 0;`}>Dive into the most pressing environmental issues of today.</Text>
+      <Text fontSize="1.5rem" center bold css={`padding: 5px 0;`}>
+        Dive into the most pressing environmental issues of today.
+        <br/>
+        View this year's challenge prompts <Link fontSize="1.5rem" href="/rules/prompts">here</Link>.
+      </Text>
     </Description>
 
     <Schedule>
