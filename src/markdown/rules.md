@@ -51,8 +51,8 @@ not be available to help troubleshoot submissions after 8 PM on the 23rd!)
 
 <br>
 
-Submissions need to be in response to a challenge prompt. Find this year’s challenge
-prompts <a href="https://docs.google.com/document/d/1nNIDpyVx2AFbEktuyNywpaM0Ina0VVrtEGliJIREG0g/edit" target="_blank">here</a>.
+Submissions need to be in response to a challenge prompt. Find this year’s challenge prompts
+[here](/rules/prompts)
 
 <br>
 
@@ -82,7 +82,7 @@ We encourage submissions to:
 
 Each pitch submission will be judged by a minimum team of 3 judges.
 - Please view the judge panel [here](/people)
-- Please view the judging rubric <a href="https://docs.google.com/document/d/1xoabKihuelbsHdLFcgFZojomsYOHcek_1hvIZev-MQY/edit#heading=h.amcr9pdskspk" target="_blank">here</a>
+- Please view the judging rubric [here](/rules/rubric)
 
 <br>
 
