@@ -52,7 +52,7 @@ not be available to help troubleshoot submissions after 8 PM on the 23rd!)
 <br>
 
 Submissions need to be in response to a challenge prompt. Find this year’s challenge prompts
-[here](/rules/prompts)
+[here](/rules/prompts).
 
 <br>
 
