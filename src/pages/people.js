@@ -58,10 +58,10 @@ const Person = ({imageSrc, imageAlt, name, linkedIn, title, bio}) => (
 )
 
 const Judges = () => (
-  <div>
+  <div id="judges">
     <Subtitle>Judges</Subtitle>
     <GridLayout>
-      <Person 
+      <Person
         imageSrc={AaronRatner}
         imageAlt="Aaron Ratner"
         name="Aaron Ratner"
@@ -71,7 +71,7 @@ const Judges = () => (
           ClimateTech Venture Partner with Vectr Ventures</>}
         bio="Aaron is the President of Cross River Infrastructure Partners, a platform of development companies deploying climate technologies into sustainable infrastructure projects across carbon capture, sustainable protein, clean fuels and clean energy, with a focus on first and early commercial projects. Aaron is also the ClimateTech Venture Partner with Vectr Ventures, a Hong Kong-based venture capital investment firm, where he focuses on carbon utilization and transformation and alternative protein."/>
 
-      <Person 
+      <Person
         imageSrc={BrettLasher}
         imageAlt="Brett Lasher"
         name="Brett Lasher"
@@ -79,7 +79,7 @@ const Judges = () => (
         title="Executive Director of Cox Communications’ New Growth & Development group"
         bio="Brett Lasher is an innovation leader who heads innovation in the Energy vertical for Cox Communications’ New Growth & Development (NG&D) group.  In this role, he is responsible for ideating around new opportunities (both B2B and B2C) in electricity, water, gas and oil and then working to de-risk and commercialize these initiatives. He is very active in the Atlanta entrepreneurial community having served as a mentor on multiple occasions in both the TechStars and Boomtown accelerators.  In addition to his work at Cox, Brett currently serves as an advisor to nVenue (AI/ML data analytics company for sports content) and as a Limited Partner Ambassador for Energy Impact Partners helping to evaluate investment theses and start-up companies in the Energy space."/>
 
-      <Person 
+      <Person
         imageSrc={HayleyMcCurdy}
         imageAlt="Hayley McCurdy"
         name="Hayley McCurdy"
@@ -87,7 +87,7 @@ const Judges = () => (
         title="Equity Analyst at Terra Alpha Investments"
         bio={<>Hayley is an investment professional with experience in sustainability-focused strategies within public equities and venture capital. As an equity analyst at <Link href="https://terraalphainvestments.com/who-we-are/">Terra Alpha Investments</Link>, Hayley researches global companies within the utilities and healthcare industries. Terra Alpha is a public equities manager with an innovative investment process of quantitative and qualitative analysis that helps identify leading companies with the optimal combination of enduring business models and superior environmental productivity.</>}/>
 
-      <Person 
+      <Person
         imageSrc={JohnMichaelLaSalle}
         imageAlt="John Michael LaSalle"
         name="John Michael LaSalle"
@@ -95,7 +95,7 @@ const Judges = () => (
         title="Urban Climate Action Consultant, World Bank and Climate Policy Initiative"
         bio="John Michael is an urban planner focused on preparing urban infrastructure for climate change globally. He has a master of City Planning from the University of Pennsylvania and a bachelor's in international development and architecture from Calvin University. Previously, he worked as an architect on projects in Egypt, Morocco, and the US and at a startup using aerial imagery from drones for building inspections and mapping."/>
 
-      <Person 
+      <Person
         imageSrc={KyleWelborn}
         imageAlt="Kyle Welborn"
         name="Kyle Welborn"
@@ -103,7 +103,7 @@ const Judges = () => (
         title="Co-founder and General Partner at Cultivation Capital"
         bio="Kyle is a co-founder and General Partner at Cultivation Capital, an early stage focused venture capital firm. He focuses on making investments across food and agriculture."/>
 
-      <Person 
+      <Person
         imageSrc={LaurenHartle}
         imageAlt="Lauren Hartle"
         name="Lauren Hartle"
@@ -111,7 +111,7 @@ const Judges = () => (
         title="Associate at Prime Impact Fund"
         bio="Dr. Lauren Hartle is an Associate at Prime Impact Fund, with responsibility to source investment opportunities broadly, manage the Fund’s investment pipeline, and support investment diligence. Lauren’s professional background includes basic and applied R&D, spanning academic and start-up settings, as well as venture investing."/>
 
-      <Person 
+      <Person
         imageSrc={MackenzieMarcotte}
         imageAlt="Mackenzie Marcotte"
         name="Mackenzie Marcotte"
@@ -119,7 +119,7 @@ const Judges = () => (
         title="Analyst at EcoAct"
         bio="Mackenzie Marcotte is an analyst with EcoAct North America’s Advisory team. Prior to joining EcoAct in 2021, she held a variety of sustainability consulting roles with nonprofits, large corporations, and industry coalitions in the natural foods, clean energy, and telecom sectors. She is a graduate of the University of Pennsylvania (Master of Environmental Studies, Corporate Sustainability & Food Systems), MINES ParisTech in France (Master of International Environmental Management), and Boston University (Bachelor of Arts, Political Science). She’s currently based in New York."/>
 
-      <Person 
+      <Person
         imageSrc={MatthewCohen}
         imageAlt="Matthew Cohen"
         name="Matthew Cohen"
@@ -127,7 +127,7 @@ const Judges = () => (
         title="Director of Technology at Pangaea Ventures Ltd."
         bio="Matt joined Pangaea Ventures in 2012. Prior to joining Pangaea Ventures, Matt was part of a start-up in printed electronics utilizing nanotechnology and has experience with companies in biotechnology and environmental bioremediation. He performed various functions ranging from R&D to business development to devising international launch strategies while gaining valuable start-up understanding. He works closely with TruTag Technologies and is on the NREL Investor Advisory Board. Matt holds an MPhil in Micro- & Nanotechnology Enterprise from the University of Cambridge and graduated summa cum laude from the University of Pennsylvania with a BSE in Materials Science & Engineering."/>
 
-      <Person 
+      <Person
         imageSrc={SuzanneShaw}
         imageAlt="Suzanne Shaw"
         name="Suzanne Shaw"
@@ -139,10 +139,10 @@ const Judges = () => (
 )
 
 const Mentors = () => (
-  <div>
+  <div id="mentors">
     <Subtitle>Mentors</Subtitle>
     <GridLayout>
-      <Person 
+      <Person
         imageSrc={AmberLuong}
         imageAlt="Amber Luong"
         name="Amber Luong"
@@ -150,7 +150,7 @@ const Mentors = () => (
         title="Head of Partnerships at Blue Sky Analytics"
         bio="Amber is currently the Head of Partnerships for Blue Sky Analytics. She has over 15 years of experience across the financial sector, policy, international development, and a range of climate change mitigation and adaptation efforts."/>
 
-      <Person 
+      <Person
         imageSrc={CynthiaWang}
         imageAlt="Cynthia Wang"
         name="Cynthia Wang"
@@ -158,7 +158,7 @@ const Mentors = () => (
         title="Master's student in Climate Change, Management, and Finance at Imperial College Business School, Researcher at Imperial College Grantham Institute"
         bio="Cynthia Wang has a BA in Environmental Studies and Political Science from Penn and is pursuing an MSc in Climate Change, Management, and Finance from Imperial College Business School in London. She is currently a Researcher with the Grantham Institute, as well as a Graduate Intern with the Asian Development Bank, specializing in private-public partnerships and climate adaptation finance. Prior to London, she was a Princeton in Asia Sustainable Cities Fellow at the Natural Resources Defense Council (NRDC) in Beijing."/>
 
-      <Person 
+      <Person
         imageSrc={JackPolicar}
         imageAlt="Jack Policar"
         name="Jack Policar"
@@ -166,7 +166,7 @@ const Mentors = () => (
         title="COO of Phood"
         bio="Jack Policar is a Denver - NY based entrepreneur. He is currently the COO of Phood, a startup that allows college students to use dining dollars to order from DoorDash with free delivery (you can find more information at Phood.co) Outside of Phood, Jack teaches an entrepreneurship course, mentors a number of early-stage college student lead startups and is building a virtual sustainability community. "/>
 
-      <Person 
+      <Person
         imageSrc={JoshMoser}
         imageAlt="Josh Moser"
         name="Josh Moser"
@@ -174,7 +174,7 @@ const Mentors = () => (
         title="Partner at Petri"
         bio="Josh is an entrepreneur and investor in sustainability. Currently, he is a partner at Petri, and previously, he worked on several early-stage ventures in sustainability, food, and agriculture."/>
 
-      <Person 
+      <Person
         imageSrc={TedNetland}
         imageAlt="Ted Netland"
         name="Ted Netland"
@@ -198,6 +198,7 @@ const People = () => {
       <div css={`padding: 60px 12vw;`}>
         <Title>People</Title>
         <Judges/>
+        <hr css={`margin: 60px 0 90px 0;`}/>
         <Mentors/>
       </div>
       <Footer />

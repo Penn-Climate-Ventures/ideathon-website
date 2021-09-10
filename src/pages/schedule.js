@@ -28,7 +28,7 @@ const EventTime = s(Text)`
 `
 
 const Timeline = () => (
-  <div>
+  <div css={`margin-top: 30px;`}>
     <Date>Tuesday, Sept. 9</Date>
     <EventGroup>
       <Event>
@@ -42,7 +42,9 @@ const Timeline = () => (
         <Text>
           Life Cycle Assessment Workshop
           <br/>
-          Register <Link href="https://airtable.com/shrylRB4E9v7mqKtq" target="_blank">here</Link>
+          <i>
+            Register <Link href="https://airtable.com/shrylRB4E9v7mqKtq" target="_blank">here</Link>
+          </i>
         </Text>
         <EventTime>5:00 PM</EventTime>
       </Event>
@@ -65,7 +67,11 @@ const Timeline = () => (
     <Date>Monday, Sept. 21 — Friday, Sept. 24</Date>
     <EventGroup>
       <Event>
-        <Text>One-to-One Mentor Office Hours & Pitch Feedback Office Hours</Text>
+        <Text>
+          One-to-One Mentor Office Hours
+          <br/>
+          <i>See our mentors <a href="/people#mentors">here</a></i>
+        </Text>
       </Event>
     </EventGroup>
     <Date>Friday, Sept. 24</Date>
@@ -75,7 +81,13 @@ const Timeline = () => (
         <EventTime>4:00 AM</EventTime>
       </Event>
       <Event>
-        <Text>Judging Period</Text>
+        <Text>
+          Judging Period
+          <br/>
+          <i>See our judges <a href="/people#judges">here</a></i>
+          <br/>
+          <i>Preview the rubric <a href="/rules/rubric">here</a></i>
+        </Text>
         <EventTime>2:00 PM to 8:00 PM</EventTime>
       </Event>
     </EventGroup>
@@ -99,9 +111,6 @@ const Schedule = () => (
     <Navbar />
     <div css={`padding: 60px 12vw;`}>
       <Title>PCV Ideathon Fall 2021 Schedule</Title>
-      <Text center css={`margin: 60px auto;`}>
-        <i>More details will be released in September! All times Eastern Standard.</i>
-      </Text>
       <Timeline />
     </div>
     <Footer />
