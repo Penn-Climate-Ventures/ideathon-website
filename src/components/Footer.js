@@ -55,8 +55,8 @@ const FooterLayout = () => <footer>
     <FooterLevel>
         <FooterButton border href="/rules">Official Rules</FooterButton>
         <FooterButton border href="/schedule">Schedule</FooterButton>
-        <FooterButton border href="/People">People</FooterButton>
-        <FooterButton border href="/Sponsors">Sponsors</FooterButton>
+        <FooterButton border href="/people">People</FooterButton>
+        <FooterButton border href="/sponsors">Sponsors</FooterButton>
         <FooterButton border href="/faq">FAQs</FooterButton>
         <FooterButton href="https://pennclimateventures.org/" target="_blank" rel="noopener noreferrer">About PCV</FooterButton>
         <SocialMediaWrapper>
