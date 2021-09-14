@@ -49,8 +49,9 @@ const TimelineLayout = React.forwardRef(({ className }, ref) => (
       <Text fontSize="1.5rem" center bold css={`padding: 5px 0;`}>
         Dive into the most pressing environmental issues of today.
         <br/>
-        View this year's challenge prompts <Link fontSize="1.5rem" href="/rules/prompts">here</Link>.
+        View this year's challenge prompts here:
       </Text>
+      <Button href="/rules/prompts" css={`margin: 15px auto 40px; display: block`}>Challenge Prompts</Button>
     </Description>
 
     <Schedule>
