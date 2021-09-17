@@ -85,7 +85,7 @@ const Judges = () => (
         name="Hayley McCurdy"
         linkedIn="https://www.linkedin.com/in/hayley-mccurdy/"
         title="Equity Analyst at Terra Alpha Investments"
-        bio={<>Hayley is an investment professional with experience in sustainability-focused strategies within public equities and venture capital. As an equity analyst at <Link href="https://terraalphainvestments.com/who-we-are/">Terra Alpha Investments</Link>, Hayley researches global companies within the utilities and healthcare industries. Terra Alpha is a public equities manager with an innovative investment process of quantitative and qualitative analysis that helps identify leading companies with the optimal combination of enduring business models and superior environmental productivity.</>}/>
+        bio={<>Hayley is an investment professional with experience in sustainability-focused strategies within public equities and venture capital. As an equity analyst at <Link href="https://terraalphainvestments.com/who-we-are/">Terra Alpha Investments</Link>, Hayley is responsible for idea generation, sustainability analysis, and fundamental research of global companies within the utilities and healthcare industries. While pursuing her Master's degree at the University of Pennsylvania, Hayley also worked for Energy Impact Partners, an energy innovation venture firm, where she helped with investment diligence and co-authored the firm's inaugural Environmental Metrics Report.</>}/>
 
       <Person
         imageSrc={JohnMichaelLaSalle}
