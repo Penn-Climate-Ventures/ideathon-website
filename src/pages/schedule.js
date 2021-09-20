@@ -56,26 +56,49 @@ const Timeline = () => (
     <Date>Monday, Sept. 20</Date>
     <EventGroup>
       <Event>
+        <Text>Office Hours with Jack Policar</Text>
+        <EventTime>6:00 PM to 8:00 PM</EventTime>
+      </Event>
+      <Event>
         <Text>Opening Keynote + Submissions Q&As</Text>
         <EventTime>9:00 PM</EventTime>
       </Event>
-      <Event>
-        <Text>Registration Deadline</Text>
-        <EventTime>11:59 PM</EventTime>
-      </Event>
     </EventGroup>
-    <Date>Monday, Sept. 21 — Friday, Sept. 24</Date>
+
+    <Date>Tuesday, Sept. 21</Date>
     <EventGroup>
       <Event>
-        <Text>
-          One-to-One Mentor Office Hours
-          <br/>
-          <i>See our mentors <a href="/people#mentors">here</a></i>
-        </Text>
+        <Text>Office Hours with Cynthia Wang</Text>
+        <EventTime>9:00 AM to 10:00 AM</EventTime>
+      </Event>
+      <Event>
+        <Text>Office Hours with Ted Netland</Text>
+        <EventTime>4:00 PM to 6:00 PM</EventTime>
       </Event>
     </EventGroup>
+
+    <Date>Wednesday, Sept. 22</Date>
+    <EventGroup>
+      <Event>
+        <Text>Office Hours with Josh Moser</Text>
+        <EventTime>3:00 PM to 5:00 PM</EventTime>
+      </Event>
+    </EventGroup>
+
+    <Date>Thursday, Sept. 23</Date>
+    <EventGroup>
+      <Event>
+        <Text>Office Hours with Amber Luong</Text>
+        <EventTime>2:00 PM to 4:00 PM</EventTime>
+      </Event>
+    </EventGroup>
+
     <Date>Friday, Sept. 24</Date>
     <EventGroup>
+      <Event>
+        <Text>Registration Deadline</Text>
+        <EventTime>12:00 AM</EventTime>
+      </Event>
       <Event>
         <Text>Submissions Due</Text>
         <EventTime>4:00 AM</EventTime>
@@ -111,6 +134,9 @@ const Schedule = () => (
     <Navbar />
     <div css={`padding: 60px 12vw;`}>
       <Title>PCV Ideathon Fall 2021 Schedule</Title>
+      <br/>
+      <Text center><i>Registration has been extended to Sept. 24 at 12:00 AM.</i></Text>
+      <br/>
       <Timeline />
     </div>
     <Footer />

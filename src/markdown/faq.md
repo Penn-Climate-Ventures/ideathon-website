@@ -19,7 +19,7 @@ The primary motivation of the PCV Prize is to catalyze climate action in the Pen
 
 1. Register as an individual to get updates on everything related to the PCV Prize. Registration opens on Sept 9 and closes Sept 20 @ 11:59pm EST.
 
-2. Register your team. Registration opens on Sept 9 and closes Sept 20 @ 11:59pm EST.
+2. Register your team. Registration opens on Sept 9 and closes Sept 24 @ 12:00am EST.
 
 3. Put together your deck, prepare to present a 3-minute speech, and then submit your pitch! (Location TBD)
 
