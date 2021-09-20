@@ -34,7 +34,7 @@ designate a team leader who will be the main point of contact.
 ## 2. Registration
 
 - All competitors on all teams need to be registered for the PCV Ideathon. 
-- Registration closes on September 20, 2021 at 11:59 PM.
+- Registration closes on September 24, 2021 at 12:00 AM.
 - There is no limit on the number of competitors registered to compete. Some events hosted alongside
 the Ideathon may require separate registration; there may be participant limits for these events. 
 

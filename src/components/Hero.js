@@ -29,12 +29,12 @@ const HeroLayout = ({ className, scrollTo }) => (
       </HeroSubtitle>
     </InlineBlock>
     <br />
-    <Button 
+    <Button
       css={`display: block; 
             margin: 50px auto;`}
       href="https://airtable.com/shrBgu8tXTCMw8Ydk"
       target="_blank" rel="noopener noreferrer">
-      Registration Open Until Sept 20
+      Registration Open Until Sept 24
     </Button>
 
     <a>
