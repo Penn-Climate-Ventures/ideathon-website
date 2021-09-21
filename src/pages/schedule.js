@@ -134,10 +134,16 @@ const Schedule = () => (
     <Navbar />
     <div css={`padding: 60px 12vw;`}>
       <Title>PCV Ideathon Fall 2021 Schedule</Title>
-      <br/>
-      <Text center><i>Registration has been extended to Sept. 24 at 12:00 AM.</i></Text>
-      <br/>
-      <Timeline />
+      <br/><br/><br/><br/>
+      <div className={"container"}>
+        <Text center><i>
+          Due to unanticipated delays, we are extending the submission deadline to the last week of
+          October and postponing office hours to the last two weeks of October. More details will come
+          in the second week of October.
+        </i></Text>
+      </div>
+      <br/><br/><br/><br/>
+      {/*<Timeline />*/}
     </div>
     <Footer />
   </>

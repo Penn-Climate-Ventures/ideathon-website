@@ -54,6 +54,7 @@ const TimelineLayout = React.forwardRef(({ className }, ref) => (
       <Button href="/rules/prompts" css={`margin: 15px auto 40px; display: block`}>Challenge Prompts</Button>
     </Description>
 
+    {/*
     <Schedule>
       <EventGroup>
         <Date>SEPT 9 &nbsp;</Date>
@@ -80,8 +81,9 @@ const TimelineLayout = React.forwardRef(({ className }, ref) => (
         <EventText>Closing ceremony + winners announced</EventText>
       </EventGroup>
     </Schedule>
+    */}
 
-    <Button href="/schedule" css={`margin: 40px auto; display: block`}>Full Event Schedule</Button>
+    {/*<Button href="/schedule" css={`margin: 40px auto; display: block`}>Full Event Schedule</Button>*/}
   </div>
 ))
 
