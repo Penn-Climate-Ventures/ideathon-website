@@ -1,6 +1,6 @@
 import React from "react"
 import s from "styled-components"
-import { Title, Subtitle } from "./shared/Typography"
+import {Title, Subtitle, Text} from "./shared/Typography"
 import Button from "./shared/Button"
 import Chevron from "../images/svg/chevron.svg"
 
@@ -20,9 +20,6 @@ const InlineBlock = s.div`
 const HeroLayout = ({ className, scrollTo }) => (
   <div className={`container has-text-centered ${className}`}>
     <InlineBlock>
-      <HeroSubtitle>
-        September 21 - 25 | Open to all students at Penn.
-      </HeroSubtitle>
       <Title fontSize="4rem">Penn Climate Ventures Ideathon</Title>
       <HeroSubtitle>
         catalyzing climate action
@@ -34,9 +31,18 @@ const HeroLayout = ({ className, scrollTo }) => (
             margin: 50px auto;`}
       href="https://airtable.com/shrBgu8tXTCMw8Ydk"
       target="_blank" rel="noopener noreferrer">
-      Registration Open Until Sept 24
+      Registration extended to October 16th
     </Button>
 
+    <div className={"container"}>
+      <Text center><i>
+        Due to unanticipated delays, we are extending the submission deadline to the last week of
+        October and postponing office hours to the last two weeks of October. More details will come
+        in the second week of October.
+      </i></Text>
+    </div>
+
+    <br/> <br/> <br/>
     <a>
       <Chevron onClick={scrollTo} css={`
         width: 3rem;
