@@ -7,7 +7,7 @@ description: "The official rules for the Penn Climate Ventures Prize."
 # PCV Ideathon Official Rules
 
 The PCV Ideathon is an annual student climate tech pitch competition hosted by Penn Climate Ventures
-at the University of Pennsylvania. The PCV Ideathon will open on 9/9 and run until 9/25. Competitors
+at the University of Pennsylvania. The PCV Ideathon will open on 9/9 and run until 10/26. Competitors
 will pitch a business plan to address a climate issue. Competitors will receive access to mentorship
 opportunities with experienced investors and operators in the space. The contest will be open and
 accessible to Penn students of all backgrounds — those without experience in climate
@@ -41,13 +41,13 @@ the Ideathon may require separate registration; there may be participant limits 
 
 ## 3. Submissions
 
-All submissions are due September 24, 2021 at 4:00 AM ET. Once you feel ready, submit your team's
+All submissions are due October 26, 2021 at 4:00 AM ET. Once you feel ready, submit your team's
 deck and presentation [here](/).
 
 <br>
 
 (We encourage teams to plan to submit early, in case of technical difficulties! The PCV team will
-not be available to help troubleshoot submissions after 8 PM on the 23rd!)
+not be available to help troubleshoot submissions after 8 PM on the 25th!)
 
 <br>
 
