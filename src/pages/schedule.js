@@ -53,10 +53,25 @@ const Timeline = () => (
         <EventTime>6:30 PM</EventTime>
       </Event>
     </EventGroup>
-    <Date>Oct. 18th – 25th</Date>
+    <Date>Wednesday, Oct. 20</Date>
     <EventGroup>
       <Event>
-        <Text>Office Hours</Text>
+        <Text>Office Hours with Amber Luong</Text>
+        <EventTime>3:00 PM — 4:00 PM</EventTime>
+      </Event>
+    </EventGroup>
+    <Date>Thursday, Oct. 21</Date>
+    <EventGroup>
+      <Event>
+        <Text>Office Hours with Ted Netland</Text>
+        <EventTime>11:00 AM — 12:00 PM</EventTime>
+      </Event>
+    </EventGroup>
+    <Date>Monday, Oct. 25</Date>
+    <EventGroup>
+      <Event>
+        <Text>Office Hours with Jack Policar</Text>
+        <EventTime>4:00 PM — 5:00 PM</EventTime>
       </Event>
     </EventGroup>
 
