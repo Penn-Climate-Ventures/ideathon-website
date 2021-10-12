@@ -7,7 +7,6 @@ import { Navbar, Footer } from "../components"
 import Headshot from "../components/shared/Headshot"
 import { mediaMaxWidth } from "../utils/constants"
 
-import AaronRatner from "../images/2021/judges/AaronRatner.jpg"
 import BrettLasher from "../images/2021/judges/BrettLasher.jpg"
 import KyleWelborn from "../images/2021/judges/KyleWelborn.jpg"
 import MackenzieMarcotte from "../images/2021/judges/MackenzieMarcotte.jpg"
@@ -61,16 +60,6 @@ const Judges = () => (
   <div id="judges">
     <Subtitle>Judges</Subtitle>
     <GridLayout>
-      <Person
-        imageSrc={AaronRatner}
-        imageAlt="Aaron Ratner"
-        name="Aaron Ratner"
-        linkedIn="https://www.linkedin.com/in/aarontratner/"
-        title={<>President of Cross River Infrastructure Partners,
-          <br/>
-          ClimateTech Venture Partner with Vectr Ventures</>}
-        bio="Aaron is the President of Cross River Infrastructure Partners, a platform of development companies deploying climate technologies into sustainable infrastructure projects across carbon capture, sustainable protein, clean fuels and clean energy, with a focus on first and early commercial projects. Aaron is also the ClimateTech Venture Partner with Vectr Ventures, a Hong Kong-based venture capital investment firm, where he focuses on carbon utilization and transformation and alternative protein."/>
-
       <Person
         imageSrc={BrettLasher}
         imageAlt="Brett Lasher"
