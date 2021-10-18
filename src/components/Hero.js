@@ -31,16 +31,15 @@ const HeroLayout = ({ className, scrollTo }) => (
             margin: 50px auto;`}
       href="https://airtable.com/shrBgu8tXTCMw8Ydk"
       target="_blank" rel="noopener noreferrer">
-      Registration extended to October 16th
+      Register here
     </Button>
-
-    <div className={"container"}>
-      <Text center><i>
-        Due to unanticipated delays, we are extending the submission deadline to the last week of
-        October and postponing office hours to the last two weeks of October. More details will come
-        in the second week of October.
-      </i></Text>
-    </div>
+    <Button
+      css={`display: block; 
+            margin: 50px auto;`}
+      href="https://airtable.com/shrYzkICuxVWiZMBm"
+      target="_blank" rel="noopener noreferrer">
+      Final submissions due Oct. 26th
+    </Button>
 
     <br/> <br/> <br/>
     <a>
