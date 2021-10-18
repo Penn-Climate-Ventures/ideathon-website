@@ -78,7 +78,13 @@ const Timeline = () => (
     <Date>Tuesday, Oct. 26</Date>
     <EventGroup>
       <Event>
-        <Text>Submissions Due</Text>
+        <Text>
+          Submissions Due
+          <br/>
+          <i>
+            Submit <Link href="https://airtable.com/shrYzkICuxVWiZMBm" target="_blank">here</Link>
+          </i>
+        </Text>
         <EventTime>4:00 AM</EventTime>
       </Event>
       {/*
@@ -116,15 +122,6 @@ const Schedule = () => (
     <Navbar />
     <div css={`padding: 60px 12vw;`}>
       <Title>PCV Ideathon Fall 2021 Schedule</Title>
-      <br/><br/><br/><br/>
-      <div className={"container"}>
-        <Text center><i>
-          Due to unanticipated delays, we are extending the submission deadline to the last week of
-          October and postponing office hours to the last two weeks of October. More details will come
-          in the second week of October.
-        </i></Text>
-      </div>
-      <br/><br/><br/><br/>
       <Timeline />
     </div>
     <Footer />
