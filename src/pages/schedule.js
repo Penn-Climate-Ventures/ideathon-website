@@ -94,27 +94,18 @@ const Timeline = () => (
         </Text>
         <EventTime>4:00 AM</EventTime>
       </Event>
-      {/*
-      <Event>
-        <Text>
-          Judging Period
-          <br/>
-          <i>See our judges <a href="/people#judges">here</a></i>
-          <br/>
-          <i>Preview the rubric <a href="/rules/rubric">here</a></i>
-        </Text>
-        <EventTime>2:00 PM to 8:00 PM</EventTime>
-      </Event>
-      */}
     </EventGroup>
-    {/*
-    <Date>Saturday, Sept. 25</Date>
+    <Date>Friday, Oct. 29</Date>
     <EventGroup>
       <Event>
-        <Text>Closing Ceremony + Winners Announced!</Text>
+        <Text>
+          Closing Ceremony + Winners Announced!
+          <br/>
+          <i>@ the ARCH building</i>
+        </Text>
+        <EventTime>7:00 PM to 8:00 PM</EventTime>
       </Event>
     </EventGroup>
-    */}
   </div>
 )
 

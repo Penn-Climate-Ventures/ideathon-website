@@ -54,34 +54,36 @@ const TimelineLayout = React.forwardRef(({ className }, ref) => (
       <Button href="/rules/prompts" css={`margin: 15px auto 40px; display: block`}>Challenge Prompts</Button>
     </Description>
 
-    <Schedule>
-      <EventGroup>
-        <Date>SEPT 9 &nbsp;</Date>
-        <EventText>Registration opens</EventText>
-      </EventGroup>
+    <div style={{marginTop: 90 + 'px', marginBottom: 90 + 'px'}}>
+      <Schedule>
+        <EventGroup>
+          <Date>SEPT 9 &nbsp;</Date>
+          <EventText>Registration opens</EventText>
+        </EventGroup>
 
-      <EventGroup>
-        <Date>SEPT 17</Date>
-        <EventText>Life cycle assessment workshop</EventText>
-      </EventGroup>
+        <EventGroup>
+          <Date>SEPT 17</Date>
+          <EventText>Life cycle assessment workshop</EventText>
+        </EventGroup>
 
-      <EventGroup>
-        <Date>SEPT 20</Date>
-        <EventText>Opening keynote</EventText>
-      </EventGroup>
+        <EventGroup>
+          <Date>SEPT 20</Date>
+          <EventText>Opening keynote</EventText>
+        </EventGroup>
 
-      <EventGroup>
-        <Date>OCT 26</Date>
-        <EventText>Submissions due</EventText>
-      </EventGroup>
+        <EventGroup>
+          <Date>OCT 26</Date>
+          <EventText>Submissions due</EventText>
+        </EventGroup>
 
-      {/*
-      <EventGroup>
-        <Date>SEPT 25</Date>
-        <EventText>Closing ceremony + winners announced</EventText>
-      </EventGroup>
-    */}
-    </Schedule>
+        <EventGroup>
+          <Date>OCT 29</Date>
+          <EventText>Closing ceremony + winners announced</EventText>
+        </EventGroup>
+      </Schedule>
+
+      <Text center><i>To see the full schedule, click <Link href={"/schedule"}>here</Link>.</i></Text>
+    </div>
 
     {/*<Button href="/schedule" css={`margin: 40px auto; display: block`}>Full Event Schedule</Button>*/}
   </div>
