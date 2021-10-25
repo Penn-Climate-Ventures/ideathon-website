@@ -96,9 +96,9 @@ spring.
 
  ## 5. Closing Ceremony
 
-The closing ceremony which will take place September 25th, 2021. Winning teams will be announced at
-the ceremony. Please email our organizing team for extenuating circumstances under which your team
-will not be able to attend!
+The closing ceremony which will take place on October 29th, 2021 at the ARCH building. Winning teams
+will be announced at the ceremony. Please email our organizing team for extenuating circumstances
+under which your team will not be able to attend!
 
 
 ## 6. Prizes
