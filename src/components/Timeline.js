@@ -78,7 +78,7 @@ const TimelineLayout = React.forwardRef(({ className }, ref) => (
 
         <EventGroup>
           <Date>OCT 29</Date>
-          <EventText>Closing ceremony + winners announced</EventText>
+          <EventText>Closing ceremony + winners announced @ ARCH 208, 7PM - 8PM</EventText>
         </EventGroup>
       </Schedule>
 

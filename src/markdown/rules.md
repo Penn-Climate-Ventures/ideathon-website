@@ -96,7 +96,7 @@ spring.
 
  ## 5. Closing Ceremony
 
-The closing ceremony which will take place on October 29th, 2021 at the ARCH building. Winning teams
+The closing ceremony which will take place on October 29th, 2021 at the ARCH building in room 208. Winning teams
 will be announced at the ceremony. Please email our organizing team for extenuating circumstances
 under which your team will not be able to attend!
 
@@ -109,7 +109,7 @@ Prize Amounts:
 - 3rd Place: $300
 - 4th Place: $200
 - 5th Mention: $100
-- Continued Engagement Fund:  1 team will be selected to have the opportunity to pursue an additional $1000 each to cover development costs should they continue to develop their pitch into a startup
+- Continued Engagement Fund: 1 team will be selected to have the opportunity to pursue an additional $1000 each to cover development costs should they continue to develop their pitch into a startup
 
 <br>
 

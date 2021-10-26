@@ -101,7 +101,7 @@ const Timeline = () => (
         <Text>
           Closing Ceremony + Winners Announced!
           <br/>
-          <i>@ the ARCH building</i>
+          <i>@ ARCH 208</i>
         </Text>
         <EventTime>7:00 PM to 8:00 PM</EventTime>
       </Event>
