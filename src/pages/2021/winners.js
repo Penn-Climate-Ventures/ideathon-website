@@ -19,6 +19,7 @@ import FauziaRahmah from "../../images/2021/winners/FauziaRahmah.jpg"
 import FirdausaAmilia from "../../images/2021/winners/FirdausaAmilia.jpg"
 import GraceDai from "../../images/2021/winners/GraceDai.jpg"
 import JosiahSyefatiawan from "../../images/2021/winners/JosiahSyefatiawan.jpg"
+import KaylaPatel from "../../images/2021/winners/KaylaPatel.jpg"
 import KrystalLi from "../../images/2021/winners/KrystalLi.jpg"
 import LindaWu from "../../images/2021/winners/LindaWu.jpg"
 import NailahShabirah from "../../images/2021/winners/NailahShabirah.jpg"
@@ -120,7 +121,7 @@ export const winners = [
       },
       {
         name: "Kayla Patel",
-        picture: "",
+        picture: KaylaPatel,
         linkedin: "http://linkedin.com/in/kayla-patel-2025"
       }
     ],
@@ -196,15 +197,7 @@ const Winners2021 = () => {
                   {member.linkedin &&
                     <Link href={member.linkedin} target="_blank" rel="noopener noreferrer">
                       <Member>
-                        {member.picture &&
-                          <Headshot src={member.picture} alt={member.name}/>
-                        }
-                        {!member.picture &&
-                          <div css={`display: table-cell; height: ${ImageSize}; width: ${ImageSize};
-                            border: 1px solid gray; text-align: center; vertical-align: middle;`}>
-                            <Text fontSize={`0.8rem`}>Image could not be found</Text>
-                          </div>
-                        }
+                        <Headshot src={member.picture} alt={member.name}/>
                         <Name>{member.name}</Name>
                       </Member>
                     </Link>
