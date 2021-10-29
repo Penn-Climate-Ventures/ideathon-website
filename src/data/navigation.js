@@ -16,6 +16,10 @@ export const navLinks = [
     url: "/schedule"
   },
   {
+    linkName: "2021 Winners",
+    url: "/2021/winners"
+  },
+  {
     linkName: "People",
     url: "/people"
   },
